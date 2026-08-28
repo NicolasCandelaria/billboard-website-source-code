@@ -269,6 +269,32 @@
   margin: 0;
 }
 
+.not-found {
+  width: min(100% - 40px, var(--max));
+  min-height: 50vh;
+  margin-inline: auto;
+  padding-block: clamp(80px, 12vw, 160px);
+  text-align: center;
+}
+
+.not-found h1 {
+  margin-bottom: 28px;
+  font-size: clamp(42px, 7vw, 72px);
+}
+
+.not-found a {
+  display: inline-block;
+  padding: 16px 30px;
+  color: var(--color-paper);
+  background: var(--color-ink);
+  transition: background 160ms ease;
+}
+
+.not-found a:hover,
+.not-found a:focus-visible {
+  background: var(--color-gold);
+}
+
 @media (max-width: 921px) {
   .site-header-inner {
     position: relative;
