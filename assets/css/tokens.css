@@ -1,0 +1,28 @@
+:root {
+  --color-ink: #000000;
+  --color-paper: #ffffff;
+  --color-gold: #c5ae87;
+  --color-gold-border: #c5ae8780;
+  --color-footer: #111111;
+  --font-sans: "Montserrat", system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-slider: "Roboto", "Montserrat", sans-serif;
+  --header-h: 90px;
+  --max: 1200px;
+  --max-wide: 1600px;
+  --bp-nav: 921px;
+}
+body {
+  color: var(--color-ink);
+  background: var(--color-paper);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+h1,
+h2,
+h3,
+.display {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: 1.2;
+}
