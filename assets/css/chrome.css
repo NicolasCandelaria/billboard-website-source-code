@@ -302,6 +302,7 @@
   left: 0;
   z-index: 900000;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 12px;
@@ -318,6 +319,17 @@
 
 .cookie-banner p {
   margin: 0;
+  max-width: 52rem;
+}
+
+.cookie-banner a.cookie-preferences {
+  min-width: 104px;
+  padding: 10px 18px;
+  color: #000;
+  background: #fff;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .cookie-banner a {
@@ -339,6 +351,13 @@
 
 .cookie-banner [data-cookie-accept] {
   background: #c5ae87;
+}
+
+.cookie-banner a.cookie-preferences:hover,
+.cookie-banner a.cookie-preferences:focus-visible {
+  color: #000;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
 }
 
 .cookie-banner a:hover,

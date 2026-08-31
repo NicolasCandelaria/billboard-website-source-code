@@ -19,7 +19,7 @@
 }
 
 #main .hero-slider .slide-content {
-  color: #fff;
+  color: #4b4f58;
   left: 8%;
   max-width: min(520px, 46%);
   position: absolute;
@@ -29,7 +29,7 @@
 }
 
 #main .hero-slider .slide-heading {
-  color: #fff;
+  color: #4b4f58;
   font-family: var(--font-slider);
   font-size: clamp(1.6rem, 3.2vw, 2.75rem);
   font-weight: 500;
@@ -45,20 +45,37 @@
 }
 
 #main .hero-slider .slide-cta {
-  border: 1px solid #fff;
+  background: #010101;
+  border: 1px solid #010101;
   color: #fff;
   display: inline-block;
   font-family: var(--font-serif);
   font-size: 1rem;
   padding: 0.65rem 1.25rem;
   text-decoration: none;
-  transition: background-color 160ms ease, color 160ms ease;
+  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
 }
 
 #main .hero-slider .slide-cta:hover,
 #main .hero-slider .slide-cta:focus-visible {
-  background: #fff;
-  color: #000;
+  background: #333;
+  border-color: #333;
+  color: #fff;
+}
+
+#main .hero-slider .slide-badges {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin-top: 1.25rem;
+}
+
+#main .hero-slider .slide-badges img {
+  display: block;
+  height: auto;
+  max-height: 64px;
+  width: auto;
 }
 
 #main .hero-slider .slider-prev,
