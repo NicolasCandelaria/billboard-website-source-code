@@ -608,14 +608,6 @@
     ]
   },
   {
-    "title": "Grey Goose Ice Bucket",
-    "image": "/assets/images/Grey-Goose-Ice-Bucket-2.jpg",
-    "url": "/assets/images/Grey-Goose-Ice-Bucket-2.jpg",
-    "categories": [
-      "Barware"
-    ]
-  },
-  {
     "title": "St - Remy Barset",
     "image": "/assets/images/st-remy-barset-1024x1024.jpg",
     "url": "/assets/images/st-remy-barset-1024x1024.jpg",
@@ -808,7 +800,7 @@
     ]
   },
   {
-    "title": "Corona Bar",
+    "title": "White Claw Bar",
     "image": "/assets/images/Corona-Bar-1024x1024.jpg",
     "url": "/assets/images/Corona-Bar-1024x1024.jpg",
     "categories": [
@@ -896,7 +888,7 @@
     ]
   },
   {
-    "title": "Tim Horton crew Polo",
+    "title": "Costa Crew Polo",
     "image": "/assets/images/Tim-Horton-crew-Polo-1024x1024.jpg",
     "url": "/assets/images/Tim-Horton-crew-Polo-1024x1024.jpg",
     "categories": [
@@ -984,7 +976,7 @@
     ]
   },
   {
-    "title": "Pabst Standing Cooler",
+    "title": "Budweiser Standing Cooler",
     "image": "/assets/images/Pabst-Standing-Cooler-1024x1024.jpg",
     "url": "/assets/images/Pabst-Standing-Cooler-1024x1024.jpg",
     "categories": [
@@ -1377,8 +1369,8 @@
   },
   {
     "title": "Felix & Lucie Tote Basket",
-    "image": "/assets/images/Felix-Lucie-Stripe-Table-Top-Napkin-Set-1024x1024.jpg",
-    "url": "/assets/images/Felix-Lucie-Stripe-Table-Top-Napkin-Set-1024x1024.jpg",
+    "image": "/assets/images/felix-lucie-tote-basket-1024x1024.jpg",
+    "url": "/assets/images/felix-lucie-tote-basket-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1432,7 +1424,7 @@
     ]
   },
   {
-    "title": "Grey Goose Ice Bucket 2",
+    "title": "Grey Goose Wine Box",
     "image": "/assets/images/Grey-Goose-Ice-Bucket-2.jpg",
     "url": "/assets/images/Grey-Goose-Ice-Bucket-2.jpg",
     "categories": [
