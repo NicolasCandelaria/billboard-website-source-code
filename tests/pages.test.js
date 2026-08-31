@@ -83,3 +83,60 @@ test("home flip cards use front buttons and initially hide their back faces", ()
   );
   assert.doesNotMatch(html, /<article class="flip-card"[^>]*role="button"/);
 });
+
+test("Task 11 uses recovered sustainability imagery and live client punctuation", () => {
+  const root = join(import.meta.dirname, "..");
+  const sustainability = readFileSync(
+    join(root, "sustainability", "index.html"),
+    "utf8"
+  );
+  const clients = readFileSync(join(root, "clients", "index.html"), "utf8");
+
+  for (const image of [
+    "Sustainability.jpg",
+    "CISCO-Wooden-Cooking-Spoon-Set.jpg",
+    "Tesla-Woodless-Pencil.jpg",
+    "SAP-Cross-Body-Bag.jpg",
+    "corona-sunglasses-1.jpg",
+    "volvo-wooden-cooking-spoon-set.jpg",
+    "shell-polo-t-shirt.jpg",
+  ]) {
+    const path = join(root, "assets", "images", image);
+    assert.equal(existsSync(path), true);
+    const bytes = readFileSync(path);
+    assert.deepEqual([...bytes.subarray(0, 2)], [0xff, 0xd8], `${image} is JPEG`);
+  }
+
+  assert.match(sustainability, /\/assets\/images\/Sustainability\.jpg/);
+  assert.match(clients, /brands’ marketing/);
+});
+
+test("sustainability gallery progressively reveals archived live items", () => {
+  const root = join(import.meta.dirname, "..");
+  const html = readFileSync(join(root, "sustainability", "index.html"), "utf8");
+
+  assert.ok((html.match(/class="sustainable-item/g) ?? []).length >= 12);
+  assert.equal(
+    (html.match(/class="sustainable-item sustainable-extra" hidden/g) ?? [])
+      .length,
+    6
+  );
+  assert.match(html, /data-sustainability-load-more/);
+  assert.match(html, /\/assets\/js\/sustainability\.js/);
+});
+
+test("seven inner marketing pages contain no WordPress runtime strings", () => {
+  const root = join(import.meta.dirname, "..");
+  for (const page of [
+    "about-us",
+    "services",
+    "sustainability",
+    "clients",
+    "accreditations",
+    "elevate-your-brand",
+    "cookie-policy",
+  ]) {
+    const html = readFileSync(join(root, page, "index.html"), "utf8");
+    assert.doesNotMatch(html, /wp-(?:content|json)/i, page);
+  }
+});

@@ -460,6 +460,13 @@
   margin: 3rem 0;
 }
 
+.sustainability-hero-image {
+  display: block;
+  height: auto;
+  margin: 0 0 2rem;
+  width: 100%;
+}
+
 .about-leadership {
   margin-top: 3.5rem;
   padding-top: 1rem;
@@ -549,6 +556,26 @@
   font-family: var(--font-serif);
   font-size: 1.05rem;
   margin-top: 0.75rem;
+}
+
+.sustainability-load-more {
+  background: var(--color-ink);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-family: var(--font-serif);
+  margin: 2rem auto 0;
+  padding: 0.85rem 1.5rem;
+}
+
+.sustainability-load-more:hover,
+.sustainability-load-more:focus-visible {
+  background: #222;
+}
+
+.sustainability-load-more[hidden] {
+  display: none;
 }
 
 .clients-logo-grid {
