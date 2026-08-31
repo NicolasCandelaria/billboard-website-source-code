@@ -352,11 +352,6 @@
     right: 1.25rem;
   }
 
-  #main .hero-slider .slider-prev,
-  #main .hero-slider .slider-next {
-    display: none;
-  }
-
   .home-categories {
     grid-template-columns: 1fr;
   }

@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 export const REQUIRED_PAGES = [
@@ -38,4 +38,20 @@ test("required public pages exist", () => {
   for (const rel of REQUIRED_PAGES) {
     assert.equal(existsSync(join(root, rel)), true, `missing ${rel}`);
   }
+});
+
+test("mobile home slider keeps arrow controls visible and clickable", () => {
+  const css = readFileSync(
+    join(import.meta.dirname, "..", "assets", "css", "pages.css"),
+    "utf8"
+  );
+  const mobileRules = css.match(/@media \(max-width: 640px\) \{[\s\S]*\}\s*$/)?.[0] ?? "";
+  const arrowRule =
+    mobileRules.match(
+      /#main \.hero-slider \.slider-prev,\s*#main \.hero-slider \.slider-next\s*\{([^}]*)\}/
+    )?.[1] ?? "";
+
+  assert.doesNotMatch(arrowRule, /display\s*:\s*none/);
+  assert.doesNotMatch(arrowRule, /visibility\s*:\s*hidden/);
+  assert.doesNotMatch(arrowRule, /(?:width|height)\s*:\s*0(?:\D|$)/);
 });
