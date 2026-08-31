@@ -2,7 +2,7 @@
   {
     "title": "Mercedes Benz Polo Set",
     "image": "/assets/images/Mercedes-Benz-Polo-Set-e1733346775366-1024x1024.jpg",
-    "url": "/mercedes-benz-polo-set/",
+    "url": "/assets/images/Mercedes-Benz-Polo-Set-e1733346775366-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -10,7 +10,7 @@
   {
     "title": "Topo Chico Crossbody Bag",
     "image": "/assets/images/Topo-Chico-Crossbody-Bag-scaled-e1733347869915-1024x1024.jpg",
-    "url": "/topo-chico-crossbody-bag/",
+    "url": "/assets/images/Topo-Chico-Crossbody-Bag-scaled-e1733347869915-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -18,7 +18,7 @@
   {
     "title": "Kraken Sherpa Jacket",
     "image": "/assets/images/Seattle-Kraken-e1733346435317-1024x1024.jpg",
-    "url": "/kraken-sherpa-jacket/",
+    "url": "/assets/images/Seattle-Kraken-e1733346435317-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -26,7 +26,7 @@
   {
     "title": "Kraken x Modelo Sweater",
     "image": "/assets/images/Seattle-Kraken-x-Modelo-Sweater-e1733346584317-1024x1024.jpg",
-    "url": "/kraken-x-modelo-sweater/",
+    "url": "/assets/images/Seattle-Kraken-x-Modelo-Sweater-e1733346584317-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -34,7 +34,7 @@
   {
     "title": "2026 Olympics Shell Jacket",
     "image": "/assets/images/2026-Olympics-Shell-Jacket-1024x1024.jpg",
-    "url": "/2026-olympics-shell-jacket/",
+    "url": "/assets/images/2026-Olympics-Shell-Jacket-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -42,7 +42,7 @@
   {
     "title": "Topo Chico Sunglasses",
     "image": "/assets/images/Topo-Chico-Sunglasses-e1733347787165-1024x1024.jpg",
-    "url": "/topo-chico-sunglasses/",
+    "url": "/assets/images/Topo-Chico-Sunglasses-e1733347787165-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
@@ -50,7 +50,7 @@
   {
     "title": "Urban Air LED topper",
     "image": "/assets/images/Urban-Air-LED-topper-1024x1024.jpg",
-    "url": "/urban-air-led-topper/",
+    "url": "/assets/images/Urban-Air-LED-topper-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
@@ -58,7 +58,7 @@
   {
     "title": "Casamigos Gardening Tools",
     "image": "/assets/images/Casamigos-gardening-tools-1024x1024.jpg",
-    "url": "/casamigos-gardening-tools/",
+    "url": "/assets/images/Casamigos-gardening-tools-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -66,7 +66,7 @@
   {
     "title": "Delta Airlines Polo Uniform",
     "image": "/assets/images/Delta-Airlines-Polo-Uniform-1024x1024.jpg",
-    "url": "/delta-airlines-polo-uniform/",
+    "url": "/assets/images/Delta-Airlines-Polo-Uniform-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -74,7 +74,7 @@
   {
     "title": "Assorted Drink Buckets",
     "image": "/assets/images/Assorted-Drink-Buckets-scaled-e1733347603953-1024x1024.jpg",
-    "url": "/assorted-drink-buckets/",
+    "url": "/assets/images/Assorted-Drink-Buckets-scaled-e1733347603953-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -82,7 +82,7 @@
   {
     "title": "Volvo Dream Set",
     "image": "/assets/images/volvo-dream-set-1024x1024.jpg",
-    "url": "/volvo-dream-set/",
+    "url": "/assets/images/volvo-dream-set-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
@@ -90,15 +90,15 @@
   {
     "title": "Starry Inflatable Cooler",
     "image": "/assets/images/Starry-Inflatable-Cooler-e1733346258773-1024x1024.jpg",
-    "url": "/starry-inflatable-cooler/",
+    "url": "/assets/images/Starry-Inflatable-Cooler-e1733346258773-1024x1024.jpg",
     "categories": [
       "Displays"
     ]
   },
   {
-    "title": "Burger King Tracksuits",
+    "title": "Burger King Tracksuit",
     "image": "/assets/images/burger-king-tracksuit-1024x1024.jpg",
-    "url": "/burger-king-tracksuits/",
+    "url": "/assets/images/burger-king-tracksuit-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -106,7 +106,7 @@
   {
     "title": "Delta Airlines Pullover",
     "image": "/assets/images/Delta-Airlines-Pullover-scaled-e1733347163433-1024x1024.jpg",
-    "url": "/delta-airlines-pullover/",
+    "url": "/assets/images/Delta-Airlines-Pullover-scaled-e1733347163433-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -114,7 +114,7 @@
   {
     "title": "Milan Olympics Vest",
     "image": "/assets/images/Olympics-Lightweight-Vest-scaled-e1733346674316-1024x1024.jpg",
-    "url": "/milan-olympics-vest/",
+    "url": "/assets/images/Olympics-Lightweight-Vest-scaled-e1733346674316-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -122,7 +122,7 @@
   {
     "title": "FedEx Cooler",
     "image": "/assets/images/FedEx-Cooler-1024x1024.jpg",
-    "url": "/fedex-cooler/",
+    "url": "/assets/images/FedEx-Cooler-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -130,7 +130,7 @@
   {
     "title": "Delta Airlines WIndbreaker",
     "image": "/assets/images/Delta-Airlines-WIndbreaker-scaled-e1733347116867-1024x1024.jpg",
-    "url": "/delta-airlines-windbreaker/",
+    "url": "/assets/images/Delta-Airlines-WIndbreaker-scaled-e1733347116867-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -138,7 +138,7 @@
   {
     "title": "FedEx Retro Windbreaker",
     "image": "/assets/images/FedEx-Retro-Windbreaker-e1733346911536-1024x1024.jpg",
-    "url": "/fedex-retro-windbreaker/",
+    "url": "/assets/images/FedEx-Retro-Windbreaker-e1733346911536-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -146,7 +146,7 @@
   {
     "title": "Topo Chico Varsity Jacket",
     "image": "/assets/images/Topo-Chico-Varsity-Jacket-scaled-e1733347726218-1024x1024.jpg",
-    "url": "/topo-chico-varsity-jacket/",
+    "url": "/assets/images/Topo-Chico-Varsity-Jacket-scaled-e1733347726218-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -154,7 +154,7 @@
   {
     "title": "Más+ Soccer Ball",
     "image": "/assets/images/Mas-Soccer-Ball-scaled-e1733346855305-1024x1024.jpg",
-    "url": "/mas-soccer-ball/",
+    "url": "/assets/images/Mas-Soccer-Ball-scaled-e1733346855305-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -162,7 +162,7 @@
   {
     "title": "Topo Chico Fridge",
     "image": "/assets/images/Topo-Chico-Fridge-1024x1024.jpg",
-    "url": "/topo-chico-fridge/",
+    "url": "/assets/images/Topo-Chico-Fridge-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
@@ -170,7 +170,7 @@
   {
     "title": "Mercedes Benz Jacket",
     "image": "/assets/images/Mercedes-Benz-Wool-Jacket-e1733346731616-1024x1024.jpg",
-    "url": "/mercedes-benz-jacket/",
+    "url": "/assets/images/Mercedes-Benz-Wool-Jacket-e1733346731616-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -178,7 +178,7 @@
   {
     "title": "Starry Basketball Cooler",
     "image": "/assets/images/Starry-Basketball-Cooler-scaled-e1733355163405-1024x1024.jpg",
-    "url": "/starry-basketball-cooler/",
+    "url": "/assets/images/Starry-Basketball-Cooler-scaled-e1733355163405-1024x1024.jpg",
     "categories": [
       "Displays"
     ]
@@ -186,7 +186,7 @@
   {
     "title": "Super Bowl x Pepsi Hoodie",
     "image": "/assets/images/Super-Bowl-x-Pepsi-Purple-Hoodie-Blue-Pepsi-Logo-scaled-e1733346028293-1024x1024.jpg",
-    "url": "/super-bowl-x-pepsi-hoodie/",
+    "url": "/assets/images/Super-Bowl-x-Pepsi-Purple-Hoodie-Blue-Pepsi-Logo-scaled-e1733346028293-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -194,7 +194,7 @@
   {
     "title": "Coca Cola Matching Sets",
     "image": "/assets/images/09-m53-1024x1024.jpg",
-    "url": "/coca-cola-matching-sets/",
+    "url": "/assets/images/09-m53-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -202,7 +202,7 @@
   {
     "title": "Tesla Military Watch",
     "image": "/assets/images/Tesla-Military-Watch.jpg",
-    "url": "/tesla-military-watch/",
+    "url": "/assets/images/Tesla-Military-Watch.jpg",
     "categories": [
       "Accessories"
     ]
@@ -210,7 +210,7 @@
   {
     "title": "Whiteclaw Drawstring Bag",
     "image": "/assets/images/whiteclaw-drawstring-bag-1024x1024.jpg",
-    "url": "/whiteclaw-drawstring-bag/",
+    "url": "/assets/images/whiteclaw-drawstring-bag-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
@@ -218,7 +218,7 @@
   {
     "title": "Peloton Sweat Towel",
     "image": "/assets/images/peloton-sweat-towel-1024x1024.jpg",
-    "url": "/peloton-sweat-towel/",
+    "url": "/assets/images/peloton-sweat-towel-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
@@ -226,7 +226,7 @@
   {
     "title": "Grey Goose Fanny Pack",
     "image": "/assets/images/grey-goose-fanny-pack-1024x1024.jpg",
-    "url": "/grey-goose-fanny-pack/",
+    "url": "/assets/images/grey-goose-fanny-pack-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
@@ -234,7 +234,7 @@
   {
     "title": "AT & T Scarf",
     "image": "/assets/images/at-t-scarf-1024x1024.jpg",
-    "url": "/at-and-t-scarf/",
+    "url": "/assets/images/at-t-scarf-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
@@ -242,7 +242,7 @@
   {
     "title": "Whiteclaw Beanie and Scarf",
     "image": "/assets/images/whiteclaw-beanie-and-scarf-1024x1024.jpg",
-    "url": "/whiteclaw-beanie-and-scarf/",
+    "url": "/assets/images/whiteclaw-beanie-and-scarf-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
@@ -250,15 +250,15 @@
   {
     "title": "Snapon Popcorn Maker",
     "image": "/assets/images/28-Popcorn-Maker-B-1024x1024.jpg",
-    "url": "/snapon-popcorn-maker/",
+    "url": "/assets/images/28-Popcorn-Maker-B-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
   },
   {
-    "title": "Jack Daniels T-Shirt",
+    "title": "Jack DanielsT-Shirt",
     "image": "/assets/images/jack-danielst-shirt-1024x1024.jpg",
-    "url": "/jack-daniels-t-shirt/",
+    "url": "/assets/images/jack-danielst-shirt-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -266,7 +266,7 @@
   {
     "title": "Kraken Raincoat",
     "image": "/assets/images/raincoat.jpg",
-    "url": "/kraken-raincoat/",
+    "url": "/assets/images/raincoat.jpg",
     "categories": [
       "Apparel"
     ]
@@ -274,7 +274,7 @@
   {
     "title": "Lemon Lip Balm",
     "image": "/assets/images/mikes-lemon-lip-balm.jpg",
-    "url": "/lemon-lip-balm/",
+    "url": "/assets/images/mikes-lemon-lip-balm.jpg",
     "categories": [
       "Accessories"
     ]
@@ -282,7 +282,7 @@
   {
     "title": "West Ham Varsity Jacket",
     "image": "/assets/images/west-ham-varsity-jacket-1024x1024.jpg",
-    "url": "/west-ham-varsity-jacket/",
+    "url": "/assets/images/west-ham-varsity-jacket-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -290,7 +290,7 @@
   {
     "title": "Barefoot Reusable Straw Keychain",
     "image": "/assets/images/barefoot-reusable-straw-keychain-1024x1024.jpg",
-    "url": "/barefoot-reusable-straw-keychain/",
+    "url": "/assets/images/barefoot-reusable-straw-keychain-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
@@ -298,7 +298,7 @@
   {
     "title": "Barefoot Sunglasses",
     "image": "/assets/images/barefoot-sunglasses.jpg",
-    "url": "/barefoot-sunglasses/",
+    "url": "/assets/images/barefoot-sunglasses.jpg",
     "categories": [
       "Accessories"
     ]
@@ -306,7 +306,7 @@
   {
     "title": "Palm Bay Cooler Bag",
     "image": "/assets/images/palm-bay-cooler-bag.jpg",
-    "url": "/palm-bay-cooler-bag/",
+    "url": "/assets/images/palm-bay-cooler-bag.jpg",
     "categories": [
       "Accessories"
     ]
@@ -314,7 +314,7 @@
   {
     "title": "Barefoot Phone Wallet",
     "image": "/assets/images/barefoot-phone-wallet.jpg",
-    "url": "/barefoot-phone-wallet/",
+    "url": "/assets/images/barefoot-phone-wallet.jpg",
     "categories": [
       "Accessories"
     ]
@@ -322,7 +322,7 @@
   {
     "title": "Peloton Keychain",
     "image": "/assets/images/18-keychain-1024x1024.jpg",
-    "url": "/peloton-keychain/",
+    "url": "/assets/images/18-keychain-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
@@ -330,7 +330,7 @@
   {
     "title": "Grey Goose Pin Set",
     "image": "/assets/images/grey-goose-pin-set-1024x1024.jpg",
-    "url": "/grey-goose-pin-set/",
+    "url": "/assets/images/grey-goose-pin-set-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
@@ -338,7 +338,7 @@
   {
     "title": "Burger King Hoodie",
     "image": "/assets/images/burger-king-hoodie-1024x1024.jpg",
-    "url": "/burger-king-hoodie/",
+    "url": "/assets/images/burger-king-hoodie-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -346,7 +346,7 @@
   {
     "title": "Coors Light Poncho",
     "image": "/assets/images/coors-light-poncho-1024x1024.jpg",
-    "url": "/coors-light-poncho/",
+    "url": "/assets/images/coors-light-poncho-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -354,23 +354,23 @@
   {
     "title": "Corona Wooden Sunglasses",
     "image": "/assets/images/27-wooden-sunglasses1b-1024x1024.jpg",
-    "url": "/corona-wooden-sunglasses/",
+    "url": "/assets/images/27-wooden-sunglasses1b-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
   },
   {
-    "title": "Wayne Gretzky Hocky Jersey",
+    "title": "Wayne Gretzky Ice Hockey Jersey",
     "image": "/assets/images/wayne-gretzky-ice-hockey-jersey-1024x1024.jpg",
-    "url": "/wayne-gretzky-hocky-jersey/",
+    "url": "/assets/images/wayne-gretzky-ice-hockey-jersey-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
   },
   {
-    "title": "Tesla Polo",
+    "title": "Tesla Polo Tshirt",
     "image": "/assets/images/Tesla-Polo-Tshirt-1024x1024.jpg",
-    "url": "/tesla-polo/",
+    "url": "/assets/images/Tesla-Polo-Tshirt-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -378,7 +378,7 @@
   {
     "title": "Moosehead Puffy Jacket Koozie",
     "image": "/assets/images/16-Moosehead-Puffy-Jacket-Koozie-1024x1024.jpg",
-    "url": "/moosehead-puffy-jacket-koozie/",
+    "url": "/assets/images/16-Moosehead-Puffy-Jacket-Koozie-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
@@ -386,15 +386,15 @@
   {
     "title": "Barefoot Leather Airpods Case",
     "image": "/assets/images/barefoot-leather-airpods-case-1024x1024.jpg",
-    "url": "/barefoot-leather-airpods-case/",
+    "url": "/assets/images/barefoot-leather-airpods-case-1024x1024.jpg",
     "categories": [
       "Accessories"
     ]
   },
   {
-    "title": "Burger King Fanny Paack",
+    "title": "Burgeer King Fanny Pack",
     "image": "/assets/images/burgeer-king-fanny-pack.jpg",
-    "url": "/burger-king-fanny-paack/",
+    "url": "/assets/images/burgeer-king-fanny-pack.jpg",
     "categories": [
       "Accessories"
     ]
@@ -402,7 +402,7 @@
   {
     "title": "Radler Swim Shorts",
     "image": "/assets/images/radler-swim-shorts.jpg",
-    "url": "/radler-swim-shorts/",
+    "url": "/assets/images/radler-swim-shorts.jpg",
     "categories": [
       "Apparel"
     ]
@@ -410,7 +410,7 @@
   {
     "title": "Popeyes Crew Jacket",
     "image": "/assets/images/popeyes-crew-jacket-1024x1024.jpg",
-    "url": "/popeyes-crew-jacket/",
+    "url": "/assets/images/popeyes-crew-jacket-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -418,7 +418,7 @@
   {
     "title": "Barefoot Hoodie",
     "image": "/assets/images/barefoot-hoodie.jpg",
-    "url": "/barefoot-hoodie/",
+    "url": "/assets/images/barefoot-hoodie.jpg",
     "categories": [
       "Apparel"
     ]
@@ -426,15 +426,15 @@
   {
     "title": "Pabst T-Shirt",
     "image": "/assets/images/pabst-t-shirt.jpg",
-    "url": "/pabst-t-shirt/",
+    "url": "/assets/images/pabst-t-shirt.jpg",
     "categories": [
       "Apparel"
     ]
   },
   {
-    "title": "Casamigos Tequila Shot Glass Set",
+    "title": "Tequila shooter set",
     "image": "/assets/images/05-tequila-shooter-set-1024x1024.jpg",
-    "url": "/casamigos-tequila-shot-glass-set/",
+    "url": "/assets/images/05-tequila-shooter-set-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
@@ -442,7 +442,7 @@
   {
     "title": "Budweiser Crop Top",
     "image": "/assets/images/budweiser-crop-top-1024x1024.jpg",
-    "url": "/budweiser-crop-top/",
+    "url": "/assets/images/budweiser-crop-top-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -450,15 +450,15 @@
   {
     "title": "Bud Light Hawaiian Shirt",
     "image": "/assets/images/16-hawaiian-shirt-2-1024x1024.jpg",
-    "url": "/bud-light-hawaiian-shirt/",
+    "url": "/assets/images/16-hawaiian-shirt-2-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
   },
   {
-    "title": "St. Jude Self Heating Mug",
+    "title": "St Judes Self Heating Mug",
     "image": "/assets/images/st-judes-self-heating-mug-1024x1024.jpg",
-    "url": "/st-jude-self-heating-mug/",
+    "url": "/assets/images/st-judes-self-heating-mug-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -466,7 +466,7 @@
   {
     "title": "Cazadores Swimsuite",
     "image": "/assets/images/19-Cazardores-Swimwear-1024x1024.jpg",
-    "url": "/cazadores-swimsuite/",
+    "url": "/assets/images/19-Cazardores-Swimwear-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -474,7 +474,7 @@
   {
     "title": "West Ham Children's shirt",
     "image": "/assets/images/west-ham-t-shirt-1024x1024.jpg",
-    "url": "/west-ham-childrens-shirt/",
+    "url": "/assets/images/west-ham-t-shirt-1024x1024.jpg",
     "categories": [
       "Apparel"
     ]
@@ -482,23 +482,23 @@
   {
     "title": "Jim Beam Coasters",
     "image": "/assets/images/jim-beam-coasters-1024x1024.jpg",
-    "url": "/jim-beam-coasters/",
+    "url": "/assets/images/jim-beam-coasters-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
   },
   {
-    "title": "Cazadores Barr Set",
+    "title": "Cazadores Bar Set",
     "image": "/assets/images/cazadores-bar-set-1024x1024.jpg",
-    "url": "/cazadores-barr-set/",
+    "url": "/assets/images/cazadores-bar-set-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
   },
   {
-    "title": "Barcadi Bartender Bag",
+    "title": "Bacardi Barbag",
     "image": "/assets/images/bacardi-barbag-1024x1024.jpg",
-    "url": "/barcadi-bartender-bag/",
+    "url": "/assets/images/bacardi-barbag-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
@@ -506,7 +506,7 @@
   {
     "title": "White Claw Cart",
     "image": "/assets/images/white-claw-cart-1024x1024.jpg",
-    "url": "/white-claw-cart/",
+    "url": "/assets/images/white-claw-cart-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
@@ -514,15 +514,15 @@
   {
     "title": "Grey Goose Wine Glass Holder",
     "image": "/assets/images/grey-goose-wine-glass-holder-1024x1024.jpg",
-    "url": "/grey-goose-wine-glass-holder/",
+    "url": "/assets/images/grey-goose-wine-glass-holder-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
   },
   {
-    "title": "Hornitos Skull Short Glass",
+    "title": "Skull and Stag Short Glass",
     "image": "/assets/images/skull-and-stag-short-glass.jpg",
-    "url": "/hornitos-skull-short-glass/",
+    "url": "/assets/images/skull-and-stag-short-glass.jpg",
     "categories": [
       "Barware"
     ]
@@ -530,7 +530,7 @@
   {
     "title": "Ford Mug",
     "image": "/assets/images/ford-mug.jpg",
-    "url": "/ford-mug/",
+    "url": "/assets/images/ford-mug.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -538,7 +538,7 @@
   {
     "title": "Jim Beam Ice Mold",
     "image": "/assets/images/jim-beam-ice-mold.jpg",
-    "url": "/jim-beam-ice-mold/",
+    "url": "/assets/images/jim-beam-ice-mold.jpg",
     "categories": [
       "Barware"
     ]
@@ -546,7 +546,7 @@
   {
     "title": "Sip Smith Bar Set",
     "image": "/assets/images/08-Sipsmith-Set-6-WEBB-1024x1024.jpg",
-    "url": "/sip-smith-bar-set/",
+    "url": "/assets/images/08-Sipsmith-Set-6-WEBB-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
@@ -554,31 +554,31 @@
   {
     "title": "West Ham United Soccer Ball Cooler",
     "image": "/assets/images/16-Soccer-Ball-Cooler-1024x1024.jpg",
-    "url": "/west-ham-united-soccer-ball-cooler/",
+    "url": "/assets/images/16-Soccer-Ball-Cooler-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
   },
   {
-    "title": "Grey Goose Slim Can",
+    "title": "Grey Goose Lid Fitted Sample",
     "image": "/assets/images/03-Grey-Goose-Lid-Fitted-Sample-2b-WEB-1024x1024.jpg",
-    "url": "/grey-goose-slim-can/",
+    "url": "/assets/images/03-Grey-Goose-Lid-Fitted-Sample-2b-WEB-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
   },
   {
-    "title": "Cazadores woodflatware Caddy",
+    "title": "Cazadorez Wooden Flatware Caddy",
     "image": "/assets/images/cazadorez-wooden-flatware-caddy-1024x1024.jpg",
-    "url": "/cazadores-woodflatware-caddy/",
+    "url": "/assets/images/cazadorez-wooden-flatware-caddy-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
   },
   {
-    "title": "Jack Daniels Coasters",
+    "title": "Jack Daniels Coaster",
     "image": "/assets/images/jack-daniels-coaster.jpg",
-    "url": "/jack-daniels-coasters/",
+    "url": "/assets/images/jack-daniels-coaster.jpg",
     "categories": [
       "Barware"
     ]
@@ -586,15 +586,15 @@
   {
     "title": "Bacardi Bar Set",
     "image": "/assets/images/bacardi-bar-set-1024x1024.jpg",
-    "url": "/bacardi-bar-set/",
+    "url": "/assets/images/bacardi-bar-set-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
   },
   {
-    "title": "Teremana Napkin Holder",
+    "title": "Teramana Napkin Holder",
     "image": "/assets/images/teramana-napkin-holder.jpg",
-    "url": "/teremana-napkin-holder/",
+    "url": "/assets/images/teramana-napkin-holder.jpg",
     "categories": [
       "Barware"
     ]
@@ -602,7 +602,7 @@
   {
     "title": "Grey Goose Ice Scoop",
     "image": "/assets/images/grey-goose-ice-scoop-1024x1024.jpg",
-    "url": "/grey-goose-ice-scoop/",
+    "url": "/assets/images/grey-goose-ice-scoop-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
@@ -610,15 +610,15 @@
   {
     "title": "Grey Goose Ice Bucket",
     "image": "/assets/images/Grey-Goose-Ice-Bucket-2.jpg",
-    "url": "/grey-goose-ice-bucket/",
+    "url": "/assets/images/Grey-Goose-Ice-Bucket-2.jpg",
     "categories": [
       "Barware"
     ]
   },
   {
-    "title": "St - Remy Bar Set",
+    "title": "St - Remy Barset",
     "image": "/assets/images/st-remy-barset-1024x1024.jpg",
-    "url": "/st-remy-bar-set/",
+    "url": "/assets/images/st-remy-barset-1024x1024.jpg",
     "categories": [
       "Barware"
     ]
@@ -626,7 +626,7 @@
   {
     "title": "Korbel Brass Ice Bucket",
     "image": "/assets/images/korbel-brass-ice-bucket.jpg",
-    "url": "/korbel-brass-ice-bucket/",
+    "url": "/assets/images/korbel-brass-ice-bucket.jpg",
     "categories": [
       "Barware"
     ]
@@ -634,15 +634,15 @@
   {
     "title": "Toki Ice Mold",
     "image": "/assets/images/toki-ice-mold.jpg",
-    "url": "/toki-ice-mold/",
+    "url": "/assets/images/toki-ice-mold.jpg",
     "categories": [
       "Barware"
     ]
   },
   {
-    "title": "Barefoot Wine Glass Set",
+    "title": "Bare Foot Wine Glass Set",
     "image": "/assets/images/bare-foot-wine-glass-set.jpg",
-    "url": "/barefoot-wine-glass-set/",
+    "url": "/assets/images/bare-foot-wine-glass-set.jpg",
     "categories": [
       "Barware"
     ]
@@ -650,15 +650,15 @@
   {
     "title": "HSBC Self Heating Mug",
     "image": "/assets/images/HSBC-Mug-1024x1024.jpg",
-    "url": "/hsbc-self-heating-mug/",
+    "url": "/assets/images/HSBC-Mug-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
   },
   {
-    "title": "Collapsable Water Bottle",
+    "title": "Boston Pizza Collapsable Water Bottle",
     "image": "/assets/images/boston-pizza-collapsable-water-bottle-1024x1024.jpg",
-    "url": "/collapsable-water-bottle/",
+    "url": "/assets/images/boston-pizza-collapsable-water-bottle-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -666,7 +666,7 @@
   {
     "title": "Cronos Water Bottle",
     "image": "/assets/images/cronos-water-bottle-1024x1024.jpg",
-    "url": "/cronos-water-bottle/",
+    "url": "/assets/images/cronos-water-bottle-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -674,7 +674,7 @@
   {
     "title": "Barefoot Bluetooth Speaker Water Bottle",
     "image": "/assets/images/barefoot-water-bottle-1024x1024.jpg",
-    "url": "/barefoot-bluetooth-speaker-water-bottle/",
+    "url": "/assets/images/barefoot-water-bottle-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -682,7 +682,7 @@
   {
     "title": "St.Jude Fruit Infuser Water Bottle",
     "image": "/assets/images/14-St.Jude-Fruit-Infuser-Water-Bottle-Sample-1i-2021-08-18-1024x1024.jpg",
-    "url": "/st-jude-fruit-infuser-water-bottle/",
+    "url": "/assets/images/14-St.Jude-Fruit-Infuser-Water-Bottle-Sample-1i-2021-08-18-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -690,15 +690,15 @@
   {
     "title": "Jack Daniel's Stainless Steel Glass",
     "image": "/assets/images/jack-daniels-stainless-steel-glass.jpg",
-    "url": "/jack-daniels-stainless-steel-glass/",
+    "url": "/assets/images/jack-daniels-stainless-steel-glass.jpg",
     "categories": [
       "Drinkware"
     ]
   },
   {
-    "title": "White Claw Skinny Can Cooler",
+    "title": "White Claw Skinni Can",
     "image": "/assets/images/11-Skinni-White-Claw-Skinni-Canz-Sample-1a-WEB-1024x1024.jpg",
-    "url": "/white-claw-skinny-can-cooler/",
+    "url": "/assets/images/11-Skinni-White-Claw-Skinni-Canz-Sample-1a-WEB-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -706,7 +706,7 @@
   {
     "title": "Starbucks Skinny Can Cooler",
     "image": "/assets/images/starbucks-skinny-can-cooler.jpg",
-    "url": "/starbucks-skinny-can-cooler/",
+    "url": "/assets/images/starbucks-skinny-can-cooler.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -714,15 +714,15 @@
   {
     "title": "Snap On Water Bottle",
     "image": "/assets/images/snap-on-water-bottle-1024x1024.jpg",
-    "url": "/snap-on-water-bottle/",
+    "url": "/assets/images/snap-on-water-bottle-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
   },
   {
-    "title": "Insulated Whiskey Nosing Glass",
+    "title": "19 Crimes Insulated Whiskey Nosing Glass",
     "image": "/assets/images/19-crimes-insulated-whiskey-nosing-glass-1024x1024.jpg",
-    "url": "/insulated-whiskey-nosing-glass/",
+    "url": "/assets/images/19-crimes-insulated-whiskey-nosing-glass-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -730,7 +730,7 @@
   {
     "title": "Mitsubishi Cup",
     "image": "/assets/images/mitsubishi-cup.jpg",
-    "url": "/mitsubishi-cup/",
+    "url": "/assets/images/mitsubishi-cup.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -738,7 +738,7 @@
   {
     "title": "West Ham Mugs",
     "image": "/assets/images/west-ham-mugs.jpg",
-    "url": "/west-ham-mugs/",
+    "url": "/assets/images/west-ham-mugs.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -746,7 +746,7 @@
   {
     "title": "Barefoot Wine Glass With Lid",
     "image": "/assets/images/barefoot-wine-glass-with-lid.jpg",
-    "url": "/barefoot-wine-glass-with-lid/",
+    "url": "/assets/images/barefoot-wine-glass-with-lid.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -754,7 +754,7 @@
   {
     "title": "White Claw Water Bottle",
     "image": "/assets/images/white-claw-water-bottle-1024x1024.jpg",
-    "url": "/white-claw-water-bottle/",
+    "url": "/assets/images/white-claw-water-bottle-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -762,15 +762,15 @@
   {
     "title": "FL Drinkware",
     "image": "/assets/images/fl-drinkware-1024x1024.jpg",
-    "url": "/fl-drinkware/",
+    "url": "/assets/images/fl-drinkware-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
   },
   {
-    "title": "Jagermeister Water Bottle",
+    "title": "Jager water bottle with straw",
     "image": "/assets/images/Jager-water-bottle-with-straw-1024x1024.jpg",
-    "url": "/jagermeister-water-bottle/",
+    "url": "/assets/images/Jager-water-bottle-with-straw-1024x1024.jpg",
     "categories": [
       "Drinkware"
     ]
@@ -778,7 +778,7 @@
   {
     "title": "Coors Light Bar",
     "image": "/assets/images/Coors-Light-Bar-1024x1024.jpg",
-    "url": "/coors-light-bar/",
+    "url": "/assets/images/Coors-Light-Bar-1024x1024.jpg",
     "categories": [
       "Displays"
     ]
@@ -786,15 +786,15 @@
   {
     "title": "Jagermeister Throne Display",
     "image": "/assets/images/Jagermeister-Throne-Display.jpg",
-    "url": "/jagermeister-throne-display/",
+    "url": "/assets/images/Jagermeister-Throne-Display.jpg",
     "categories": [
       "Displays"
     ]
   },
   {
-    "title": "Horgaarden Display",
+    "title": "Hogarden Display",
     "image": "/assets/images/Hogarden-Display-1024x1024.jpg",
-    "url": "/horgaarden-display/",
+    "url": "/assets/images/Hogarden-Display-1024x1024.jpg",
     "categories": [
       "Displays"
     ]
@@ -802,15 +802,15 @@
   {
     "title": "St Germain Display",
     "image": "/assets/images/St-Germain-Display-1024x1024.jpg",
-    "url": "/st-germain-display/",
+    "url": "/assets/images/St-Germain-Display-1024x1024.jpg",
     "categories": [
       "Displays"
     ]
   },
   {
-    "title": "White Claw Bar",
+    "title": "Corona Bar",
     "image": "/assets/images/Corona-Bar-1024x1024.jpg",
-    "url": "/white-claw-bar/",
+    "url": "/assets/images/Corona-Bar-1024x1024.jpg",
     "categories": [
       "Displays"
     ]
@@ -818,15 +818,15 @@
   {
     "title": "White Claw A Frame",
     "image": "/assets/images/White-Claw-A-Frame-1024x1024.jpg",
-    "url": "/white-claw-a-frame/",
+    "url": "/assets/images/White-Claw-A-Frame-1024x1024.jpg",
     "categories": [
       "Displays"
     ]
   },
   {
-    "title": "Wild Succulant Display",
+    "title": "Wiid Succulent Wall",
     "image": "/assets/images/Wiid-Succulent-Wall-1024x1024.jpg",
-    "url": "/wild-succulant-display/",
+    "url": "/assets/images/Wiid-Succulent-Wall-1024x1024.jpg",
     "categories": [
       "Displays"
     ]
@@ -834,23 +834,23 @@
   {
     "title": "Grey Goose Bottle Display & Sparkle",
     "image": "/assets/images/Grey-Goose-Bottle-Display-Sparkle.jpg",
-    "url": "/grey-goose-bottle-display-and-sparkle/",
+    "url": "/assets/images/Grey-Goose-Bottle-Display-Sparkle.jpg",
     "categories": [
       "Displays"
     ]
   },
   {
-    "title": "White Claw Surfboard",
+    "title": "White Claw Surfboard Mirror",
     "image": "/assets/images/White-Claw-Surfboard-Mirror.jpg",
-    "url": "/white-claw-surfboard/",
+    "url": "/assets/images/White-Claw-Surfboard-Mirror.jpg",
     "categories": [
       "Displays"
     ]
   },
   {
-    "title": "Hoegaarden Sandwich Board",
+    "title": "Hogarden Sandwich Board",
     "image": "/assets/images/Hogarden-Sandwich-Board-1.jpg",
-    "url": "/hoegaarden-sandwich-board/",
+    "url": "/assets/images/Hogarden-Sandwich-Board-1.jpg",
     "categories": [
       "Displays"
     ]
@@ -858,7 +858,7 @@
   {
     "title": "Pacifico Bar",
     "image": "/assets/images/Pacifico-Bar-1-1024x1024.jpg",
-    "url": "/pacifico-bar/",
+    "url": "/assets/images/Pacifico-Bar-1-1024x1024.jpg",
     "categories": [
       "Displays"
     ]
@@ -866,7 +866,7 @@
   {
     "title": "Jim Beam Display",
     "image": "/assets/images/Jim-Beam-Display-1.jpg",
-    "url": "/jim-beam-display/",
+    "url": "/assets/images/Jim-Beam-Display-1.jpg",
     "categories": [
       "Displays"
     ]
@@ -874,7 +874,7 @@
   {
     "title": "Dunkin Cooler with Umbrella",
     "image": "/assets/images/Dunkin-Umbrella-Cooler.jpg",
-    "url": "/dunkin-cooler-with-umbrella/",
+    "url": "/assets/images/Dunkin-Umbrella-Cooler.jpg",
     "categories": [
       "Displays"
     ]
@@ -882,23 +882,23 @@
   {
     "title": "Grey Goose Aromatic Display",
     "image": "/assets/images/Grey-Goose-Aromatic-Display-1024x1024.jpg",
-    "url": "/grey-goose-aromatic-display/",
+    "url": "/assets/images/Grey-Goose-Aromatic-Display-1024x1024.jpg",
     "categories": [
       "Displays"
     ]
   },
   {
-    "title": "SGP Scrubs",
+    "title": "SGP Scrubs Men and Women",
     "image": "/assets/images/SGP-Scrubs-Men-and-Women.jpg",
-    "url": "/sgp-scrubs/",
+    "url": "/assets/images/SGP-Scrubs-Men-and-Women.jpg",
     "categories": [
       "Uniforms"
     ]
   },
   {
-    "title": "Costa Crew Polo",
+    "title": "Tim Horton crew Polo",
     "image": "/assets/images/Tim-Horton-crew-Polo-1024x1024.jpg",
-    "url": "/costa-crew-polo/",
+    "url": "/assets/images/Tim-Horton-crew-Polo-1024x1024.jpg",
     "categories": [
       "Uniforms"
     ]
@@ -906,7 +906,7 @@
   {
     "title": "Popeyes Uniform",
     "image": "/assets/images/Popeyes-Uniform-1024x1024.jpg",
-    "url": "/popeyes-uniform/",
+    "url": "/assets/images/Popeyes-Uniform-1024x1024.jpg",
     "categories": [
       "Uniforms"
     ]
@@ -914,15 +914,15 @@
   {
     "title": "Sapporo Women's Uniform",
     "image": "/assets/images/Sapporo-Womens-Uniform-1024x1024.jpg",
-    "url": "/sapporo-womens-uniform/",
+    "url": "/assets/images/Sapporo-Womens-Uniform-1024x1024.jpg",
     "categories": [
       "Uniforms"
     ]
   },
   {
-    "title": "Costa Polo T - Shirt",
+    "title": "Tim Horton crew Polo 02",
     "image": "/assets/images/Tim-Horton-crew-Polo-02-1024x1024.jpg",
-    "url": "/costa-polo-t-shirt/",
+    "url": "/assets/images/Tim-Horton-crew-Polo-02-1024x1024.jpg",
     "categories": [
       "Uniforms"
     ]
@@ -930,7 +930,7 @@
   {
     "title": "Michelin Full Outfit",
     "image": "/assets/images/Michelin-full-outfit.jpg",
-    "url": "/michelin-full-outfit/",
+    "url": "/assets/images/Michelin-full-outfit.jpg",
     "categories": [
       "Uniforms"
     ]
@@ -938,7 +938,7 @@
   {
     "title": "CISCO Polo Shirts",
     "image": "/assets/images/CISCO-Unisex-Polo-Shirt.jpg",
-    "url": "/cisco-polo-shirts/",
+    "url": "/assets/images/CISCO-Unisex-Polo-Shirt.jpg",
     "categories": [
       "Uniforms"
     ]
@@ -946,7 +946,7 @@
   {
     "title": "RWC Orange Day Soccer Uniform",
     "image": "/assets/images/RWC-Orange-Day-Soccer-Uniform-1024x1024.jpg",
-    "url": "/rwc-orange-day-soccer-uniform/",
+    "url": "/assets/images/RWC-Orange-Day-Soccer-Uniform-1024x1024.jpg",
     "categories": [
       "Uniforms"
     ]
@@ -954,7 +954,7 @@
   {
     "title": "Jack Daniel's Server Dress",
     "image": "/assets/images/Jack-Daniel-Server-Dress-1024x1024.jpg",
-    "url": "/jack-daniels-server-dress/",
+    "url": "/assets/images/Jack-Daniel-Server-Dress-1024x1024.jpg",
     "categories": [
       "Uniforms"
     ]
@@ -962,7 +962,7 @@
   {
     "title": "Sapporo Black Men's Uniform",
     "image": "/assets/images/Sapporo-Black-Mens-Uniform-1024x1024.jpg",
-    "url": "/sapporo-black-mens-uniform/",
+    "url": "/assets/images/Sapporo-Black-Mens-Uniform-1024x1024.jpg",
     "categories": [
       "Uniforms"
     ]
@@ -970,7 +970,7 @@
   {
     "title": "Jack Daniel's Apron",
     "image": "/assets/images/Jack-Daniels-Apron-1024x1024.jpg",
-    "url": "/jack-daniels-apron/",
+    "url": "/assets/images/Jack-Daniels-Apron-1024x1024.jpg",
     "categories": [
       "Uniforms"
     ]
@@ -978,15 +978,15 @@
   {
     "title": "Grey Goose Apron",
     "image": "/assets/images/Grey-Goose-Apron-1024x1024.jpg",
-    "url": "/grey-goose-apron/",
+    "url": "/assets/images/Grey-Goose-Apron-1024x1024.jpg",
     "categories": [
       "Uniforms"
     ]
   },
   {
-    "title": "Budweiser Standing Cooler",
+    "title": "Pabst Standing Cooler",
     "image": "/assets/images/Pabst-Standing-Cooler-1024x1024.jpg",
-    "url": "/budweiser-standing-cooler/",
+    "url": "/assets/images/Pabst-Standing-Cooler-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -994,7 +994,7 @@
   {
     "title": "Felix & Lucie Picnic Tote Basket",
     "image": "/assets/images/Felix-Lucie-Picnic-Tote-Basket-1024x1024.jpg",
-    "url": "/felix-and-lucie-picnic-tote-basket/",
+    "url": "/assets/images/Felix-Lucie-Picnic-Tote-Basket-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1002,7 +1002,7 @@
   {
     "title": "Mike's Lemonade Chair",
     "image": "/assets/images/Mikes-Lemonade-Chair-1024x1024.jpg",
-    "url": "/mikes-lemonade-chair/",
+    "url": "/assets/images/Mikes-Lemonade-Chair-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1010,7 +1010,7 @@
   {
     "title": "Jack Daniel's Camp Chair",
     "image": "/assets/images/Jack-Daniels-Camp-Chair-1024x1024.jpg",
-    "url": "/jack-daniels-camp-chair/",
+    "url": "/assets/images/Jack-Daniels-Camp-Chair-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1018,7 +1018,7 @@
   {
     "title": "Snap on Golf Cart Bag",
     "image": "/assets/images/Snap-on-Golf-Cart-Bag-1024x1024.jpg",
-    "url": "/snap-on-golf-cart-bag/",
+    "url": "/assets/images/Snap-on-Golf-Cart-Bag-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1026,7 +1026,7 @@
   {
     "title": "HSBC Umbrella",
     "image": "/assets/images/HSBC-Umbrella-1024x1024.jpg",
-    "url": "/hsbc-umbrella/",
+    "url": "/assets/images/HSBC-Umbrella-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1034,7 +1034,7 @@
   {
     "title": "Grey Goose Rainbow float",
     "image": "/assets/images/Grey-Goose-Rainbow-float-1024x1024.jpg",
-    "url": "/grey-goose-rainbow-float/",
+    "url": "/assets/images/Grey-Goose-Rainbow-float-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1042,7 +1042,7 @@
   {
     "title": "White Claw Lounger",
     "image": "/assets/images/White-Claw-Lounger-1024x1024.jpg",
-    "url": "/white-claw-lounger/",
+    "url": "/assets/images/White-Claw-Lounger-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1050,7 +1050,7 @@
   {
     "title": "Barcadi Chair",
     "image": "/assets/images/Barcadi-Chair-1024x1024.jpg",
-    "url": "/barcadi-chair/",
+    "url": "/assets/images/Barcadi-Chair-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1058,7 +1058,7 @@
   {
     "title": "Michelob Ultra Golf Cart Bag",
     "image": "/assets/images/Michelob-Ultra-Golf-Cart-Bag-1024x1024.jpg",
-    "url": "/michelob-ultra-golf-cart-bag/",
+    "url": "/assets/images/Michelob-Ultra-Golf-Cart-Bag-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1066,7 +1066,7 @@
   {
     "title": "Jim Beam Cooler",
     "image": "/assets/images/Jim-Beam-Cooler-1024x1024.jpg",
-    "url": "/jim-beam-cooler/",
+    "url": "/assets/images/Jim-Beam-Cooler-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1074,7 +1074,7 @@
   {
     "title": "Okanagan Kayak",
     "image": "/assets/images/Okanagan-Kayak-1024x1024.jpg",
-    "url": "/okanagan-kayak/",
+    "url": "/assets/images/Okanagan-Kayak-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1082,7 +1082,7 @@
   {
     "title": "Budlight Pool Float",
     "image": "/assets/images/Budlight-Pool-Float.jpg",
-    "url": "/budlight-pool-float/",
+    "url": "/assets/images/Budlight-Pool-Float.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1090,7 +1090,7 @@
   {
     "title": "Budweiser and Seahawks Chair",
     "image": "/assets/images/Budweiser-and-Seahawks-Chair-1024x1024.jpg",
-    "url": "/budweiser-and-seahawks-chair/",
+    "url": "/assets/images/Budweiser-and-Seahawks-Chair-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1098,7 +1098,7 @@
   {
     "title": "Michelob Wood Headcover",
     "image": "/assets/images/Michelob-Wood-Headcover-1024x1024.jpg",
-    "url": "/michelob-wood-headcover/",
+    "url": "/assets/images/Michelob-Wood-Headcover-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1106,7 +1106,7 @@
   {
     "title": "White Claw Wakeboard",
     "image": "/assets/images/White-Claw-Wakeboard-1024x1024.jpg",
-    "url": "/white-claw-wakeboard/",
+    "url": "/assets/images/White-Claw-Wakeboard-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1114,7 +1114,7 @@
   {
     "title": "SAP Beach Towel",
     "image": "/assets/images/SAP-Beach-Towel.jpg",
-    "url": "/sap-beach-towel/",
+    "url": "/assets/images/SAP-Beach-Towel.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1122,7 +1122,7 @@
   {
     "title": "White Claw Paddleboard",
     "image": "/assets/images/White-Claw-Paddleboard-1024x1024.jpg",
-    "url": "/white-claw-paddleboard/",
+    "url": "/assets/images/White-Claw-Paddleboard-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1130,7 +1130,7 @@
   {
     "title": "Grey Goose Inflatable Chiller",
     "image": "/assets/images/Grey-Goose-Inflatable-Chiller-1-1024x1024.jpg",
-    "url": "/grey-goose-inflatable-chiller/",
+    "url": "/assets/images/Grey-Goose-Inflatable-Chiller-1-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1138,7 +1138,7 @@
   {
     "title": "West Ham United Back Pack",
     "image": "/assets/images/West-Ham-United-Back-Pack.jpg",
-    "url": "/west-ham-united-back-pack/",
+    "url": "/assets/images/West-Ham-United-Back-Pack.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1146,7 +1146,7 @@
   {
     "title": "Captain Morgan Snowboard",
     "image": "/assets/images/Captain-Morgan-Snowboard-1024x1024.jpg",
-    "url": "/captain-morgan-snowboard/",
+    "url": "/assets/images/Captain-Morgan-Snowboard-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1154,7 +1154,7 @@
   {
     "title": "Felix & Lucie Navy Wool Throw",
     "image": "/assets/images/Felix-Lucie-Navy-Wool-Throw.jpg",
-    "url": "/felix-and-lucie-navy-wool-throw/",
+    "url": "/assets/images/Felix-Lucie-Navy-Wool-Throw.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1162,7 +1162,7 @@
   {
     "title": "BareFoot Striped Hammock",
     "image": "/assets/images/BareFoot-Striped-Hammock-1024x1024.jpg",
-    "url": "/barefoot-striped-hammock/",
+    "url": "/assets/images/BareFoot-Striped-Hammock-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1170,7 +1170,7 @@
   {
     "title": "Fexlix & Lucie Bike with Basket",
     "image": "/assets/images/Fexlix-Lucie-Bike-with-Basket-1024x1024.jpg",
-    "url": "/fexlix-and-lucie-bike-with-basket/",
+    "url": "/assets/images/Fexlix-Lucie-Bike-with-Basket-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1178,7 +1178,7 @@
   {
     "title": "BareFoot Square Portable Speaker",
     "image": "/assets/images/BareFoot-Square-Portable-Speaker-1.jpg",
-    "url": "/barefoot-square-portable-speaker/",
+    "url": "/assets/images/BareFoot-Square-Portable-Speaker-1.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1186,7 +1186,7 @@
   {
     "title": "White Claw Bean Bag Float",
     "image": "/assets/images/White-Claw-Float-1024x1024.jpg",
-    "url": "/white-claw-bean-bag-float/",
+    "url": "/assets/images/White-Claw-Float-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1194,7 +1194,7 @@
   {
     "title": "Portable Badminton",
     "image": "/assets/images/portable-badminton-1024x1024.jpg",
-    "url": "/portable-badminton/",
+    "url": "/assets/images/portable-badminton-1024x1024.jpg",
     "categories": [
       "Outdoors"
     ]
@@ -1202,7 +1202,7 @@
   {
     "title": "Mionetto Stemless Wine Glass",
     "image": "/assets/images/Mionetto-Stemless-Wine-Glass.jpg",
-    "url": "/mionetto-stemless-wine-glass/",
+    "url": "/assets/images/Mionetto-Stemless-Wine-Glass.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1210,7 +1210,7 @@
   {
     "title": "Palm Bay Gummies",
     "image": "/assets/images/Palm-Bay-Gummies-1024x1024.jpg",
-    "url": "/palm-bay-gummies/",
+    "url": "/assets/images/Palm-Bay-Gummies-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1218,7 +1218,7 @@
   {
     "title": "Winebow Wine Holder",
     "image": "/assets/images/Winebow-Wine-Holder.jpg",
-    "url": "/winebow-wine-holder/",
+    "url": "/assets/images/Winebow-Wine-Holder.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1226,7 +1226,7 @@
   {
     "title": "Mission Hill Wine Chiller",
     "image": "/assets/images/Mission-Hill-Wine-Chiller-1-1024x1024.jpg",
-    "url": "/mission-hill-wine-chiller/",
+    "url": "/assets/images/Mission-Hill-Wine-Chiller-1-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1234,7 +1234,7 @@
   {
     "title": "Mionetto Wine Pourer",
     "image": "/assets/images/Mionetto-Wine-Pourer.jpg",
-    "url": "/mionetto-wine-pourer/",
+    "url": "/assets/images/Mionetto-Wine-Pourer.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1242,7 +1242,7 @@
   {
     "title": "JP Chenet Wine Glass and Food Board",
     "image": "/assets/images/JP-Chenet-Wine-Glass-and-Food-Board-1024x1024.jpg",
-    "url": "/jp-chenet-wine-glass-and-food-board/",
+    "url": "/assets/images/JP-Chenet-Wine-Glass-and-Food-Board-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1250,7 +1250,7 @@
   {
     "title": "Lodos Wine Charms",
     "image": "/assets/images/Lodos-Wine-Charms-1024x1024.jpg",
-    "url": "/lodos-wine-charms/",
+    "url": "/assets/images/Lodos-Wine-Charms-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1258,7 +1258,7 @@
   {
     "title": "BareFoot Shower Wine Holder",
     "image": "/assets/images/BareFoot-Shower-Wine-Holder-1024x1024.jpg",
-    "url": "/barefoot-shower-wine-holder/",
+    "url": "/assets/images/BareFoot-Shower-Wine-Holder-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1266,7 +1266,7 @@
   {
     "title": "Fat Bastard Picks and Cheese Cutting Board",
     "image": "/assets/images/Fat-Bastard-Picks-and-Cheese-Cutting-Board-1024x1024.jpg",
-    "url": "/fat-bastard-picks-and-cheese-cutting-board/",
+    "url": "/assets/images/Fat-Bastard-Picks-and-Cheese-Cutting-Board-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1274,7 +1274,7 @@
   {
     "title": "Winebow Water Wine Carafe Oak Base",
     "image": "/assets/images/Winebow-Water-Wine-Carafe-Oak-Base.jpg",
-    "url": "/winebow-water-wine-carafe-oak-base/",
+    "url": "/assets/images/Winebow-Water-Wine-Carafe-Oak-Base.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1282,7 +1282,7 @@
   {
     "title": "Lapostolle Leather  Wine Tote",
     "image": "/assets/images/Lapostolle-Leather-Wine-Tote.jpg",
-    "url": "/lapostolle-leather-wine-tote/",
+    "url": "/assets/images/Lapostolle-Leather-Wine-Tote.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1290,7 +1290,7 @@
   {
     "title": "Chateau De Saint Cosme Wine Bottle Travel Carrier",
     "image": "/assets/images/Chateau-De-Saint-Cosme-Wine-Bottle-Travel-Carrier-1024x1024.jpg",
-    "url": "/chateau-de-saint-cosme-wine-bottle-travel-carrier/",
+    "url": "/assets/images/Chateau-De-Saint-Cosme-Wine-Bottle-Travel-Carrier-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1298,7 +1298,7 @@
   {
     "title": "Fat Bastard Wine Pourer",
     "image": "/assets/images/Fat-Bastard-Wine-Pourer-1024x1024.jpg",
-    "url": "/fat-bastard-wine-pourer/",
+    "url": "/assets/images/Fat-Bastard-Wine-Pourer-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1306,7 +1306,7 @@
   {
     "title": "Zardetto Floating Rose Bottle",
     "image": "/assets/images/Zardetto-Floating-Rose-Bottle-1-1024x1024.jpg",
-    "url": "/zardetto-floating-rose-bottle/",
+    "url": "/assets/images/Zardetto-Floating-Rose-Bottle-1-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1314,7 +1314,7 @@
   {
     "title": "Loimer Wine Bottle Stopper",
     "image": "/assets/images/Loimer-Wine-Bottle-Stopper-1024x1024.jpg",
-    "url": "/loimer-wine-bottle-stopper/",
+    "url": "/assets/images/Loimer-Wine-Bottle-Stopper-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1322,7 +1322,7 @@
   {
     "title": "Borsao Snack Tray",
     "image": "/assets/images/Borsao-Snack-Tray.jpg",
-    "url": "/borsao-snack-tray/",
+    "url": "/assets/images/Borsao-Snack-Tray.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1330,7 +1330,7 @@
   {
     "title": "Esk Valley Cozy Carrier",
     "image": "/assets/images/Esk-Valley-Cozy-Carrier-1024x1024.jpg",
-    "url": "/esk-valley-cozy-carrier/",
+    "url": "/assets/images/Esk-Valley-Cozy-Carrier-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1338,7 +1338,7 @@
   {
     "title": "Borsao Wine Glass Appetizer Plate",
     "image": "/assets/images/Borsao-Wine-Glass-Appetizer-Plate.jpg",
-    "url": "/borsao-wine-glass-appetizer-plate/",
+    "url": "/assets/images/Borsao-Wine-Glass-Appetizer-Plate.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1346,7 +1346,7 @@
   {
     "title": "BareFoot Straw Ice Mold",
     "image": "/assets/images/BareFoot-Straw-Ice-Mold-1024x1024.jpg",
-    "url": "/barefoot-straw-ice-mold/",
+    "url": "/assets/images/BareFoot-Straw-Ice-Mold-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1354,7 +1354,7 @@
   {
     "title": "Fat Bastard Decante",
     "image": "/assets/images/Fat-Bastard-Decanter-1024x1024.jpg",
-    "url": "/fat-bastard-decante/",
+    "url": "/assets/images/Fat-Bastard-Decanter-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1362,7 +1362,7 @@
   {
     "title": "Esk Valley Wine Gems",
     "image": "/assets/images/Esk-Valley-Wine-Gems-1024x1024.jpg",
-    "url": "/esk-valley-wine-gems/",
+    "url": "/assets/images/Esk-Valley-Wine-Gems-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1370,7 +1370,7 @@
   {
     "title": "Cleanslate Coasters",
     "image": "/assets/images/Cleanslate-Coasters.jpg",
-    "url": "/cleanslate-coasters/",
+    "url": "/assets/images/Cleanslate-Coasters.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1378,7 +1378,7 @@
   {
     "title": "Felix & Lucie Tote Basket",
     "image": "/assets/images/Felix-Lucie-Stripe-Table-Top-Napkin-Set-1024x1024.jpg",
-    "url": "/felix-and-lucie-tote-basket/",
+    "url": "/assets/images/Felix-Lucie-Stripe-Table-Top-Napkin-Set-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1386,7 +1386,7 @@
   {
     "title": "BareFoot Hangover Kit",
     "image": "/assets/images/BareFoot-Hangover-Kit.jpg",
-    "url": "/barefoot-hangover-kit/",
+    "url": "/assets/images/BareFoot-Hangover-Kit.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1394,7 +1394,7 @@
   {
     "title": "ST Remy Stcking Drink Dispenser",
     "image": "/assets/images/ST-Remy-Stcking-Drink-Dispenser.jpg",
-    "url": "/st-remy-stcking-drink-dispenser/",
+    "url": "/assets/images/ST-Remy-Stcking-Drink-Dispenser.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1402,7 +1402,7 @@
   {
     "title": "Felix & Lucie Stripe Table Top Napkin Set",
     "image": "/assets/images/Felix-Lucie-Stripe-Table-Top-Napkin-Set-1024x1024.jpg",
-    "url": "/felix-and-lucie-stripe-table-top-napkin-set/",
+    "url": "/assets/images/Felix-Lucie-Stripe-Table-Top-Napkin-Set-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1410,7 +1410,7 @@
   {
     "title": "BareFoot Gummies",
     "image": "/assets/images/BareFoot-Gummies-1024x1024.jpg",
-    "url": "/barefoot-gummies/",
+    "url": "/assets/images/BareFoot-Gummies-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1418,7 +1418,7 @@
   {
     "title": "BareFoot Wine Glass Pens",
     "image": "/assets/images/BareFoot-Wine-Glass-Pens-1024x1024.jpg",
-    "url": "/barefoot-wine-glass-pens/",
+    "url": "/assets/images/BareFoot-Wine-Glass-Pens-1024x1024.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1426,15 +1426,15 @@
   {
     "title": "Felix & Lucie Wine Glass Charms",
     "image": "/assets/images/Felix-Lucie-Wine-Glass-Charms.jpg",
-    "url": "/felix-and-lucie-wine-glass-charms/",
+    "url": "/assets/images/Felix-Lucie-Wine-Glass-Charms.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
   },
   {
-    "title": "Grey Goose Wine Box",
+    "title": "Grey Goose Ice Bucket 2",
     "image": "/assets/images/Grey-Goose-Ice-Bucket-2.jpg",
-    "url": "/grey-goose-wine-box/",
+    "url": "/assets/images/Grey-Goose-Ice-Bucket-2.jpg",
     "categories": [
       "Wine & Spirits Accessories"
     ]
@@ -1442,7 +1442,7 @@
   {
     "title": "Cayman Jack Indiana Jones hat",
     "image": "/assets/images/cayman-jack-indiana-jones-hat-1024x1024.jpg",
-    "url": "/cayman-jack-indiana-jones-hat/",
+    "url": "/assets/images/cayman-jack-indiana-jones-hat-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1450,7 +1450,7 @@
   {
     "title": "Absolut Visor",
     "image": "/assets/images/absolut-visor-1024x1024.jpg",
-    "url": "/absolut-visor/",
+    "url": "/assets/images/absolut-visor-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1458,7 +1458,7 @@
   {
     "title": "T - Mobile Baseball Hat",
     "image": "/assets/images/T-Mobile-Baseball-Hat-1024x1024.jpg",
-    "url": "/t-mobile-baseball-hat/",
+    "url": "/assets/images/T-Mobile-Baseball-Hat-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1466,23 +1466,23 @@
   {
     "title": "Mike's Hard Lemonade Bucket Hat",
     "image": "/assets/images/mike-s-hard-lemonade-bucket-hat-1024x1024.jpg",
-    "url": "/mikes-hard-lemonade-bucket-hat/",
+    "url": "/assets/images/mike-s-hard-lemonade-bucket-hat-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
   },
   {
-    "title": "Cayman Jack Baseball Hat",
+    "title": "Cayman Jack Baeball Hat",
     "image": "/assets/images/cayman-jack-baeball-hat.jpg",
-    "url": "/cayman-jack-baseball-hat/",
+    "url": "/assets/images/cayman-jack-baeball-hat.jpg",
     "categories": [
       "Headwear"
     ]
   },
   {
-    "title": "Labatt Blue Trucker Hat",
+    "title": "Labatts Blue Trucker Hat",
     "image": "/assets/images/labatts-blue-trucker-hat.jpg",
-    "url": "/labatt-blue-trucker-hat/",
+    "url": "/assets/images/labatts-blue-trucker-hat.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1490,7 +1490,7 @@
   {
     "title": "Bobcat Dad Hat",
     "image": "/assets/images/Bobcat-Dad-Hat-1024x1024.jpg",
-    "url": "/bobcat-dad-hat/",
+    "url": "/assets/images/Bobcat-Dad-Hat-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1498,7 +1498,7 @@
   {
     "title": "Spinach Larger Beanie",
     "image": "/assets/images/spinach-larger-beanie-1024x1024.jpg",
-    "url": "/spinach-larger-beanie/",
+    "url": "/assets/images/spinach-larger-beanie-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1506,15 +1506,15 @@
   {
     "title": "Shell Trucker Hat",
     "image": "/assets/images/Shell-Trucker-Hat-1024x1024.jpg",
-    "url": "/shell-trucker-hat/",
+    "url": "/assets/images/Shell-Trucker-Hat-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
   },
   {
-    "title": "Hornitos Hat",
+    "title": "Hornitos Crystalino Hat",
     "image": "/assets/images/hornitos-crystalino-hat-1024x1024.jpg",
-    "url": "/hornitos-hat/",
+    "url": "/assets/images/hornitos-crystalino-hat-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1522,7 +1522,7 @@
   {
     "title": "Whiteclaw  Reversible Bucket Hat",
     "image": "/assets/images/whiteclaw-reversible-bucket-hat-1024x1024.jpg",
-    "url": "/whiteclaw-reversible-bucket-hat/",
+    "url": "/assets/images/whiteclaw-reversible-bucket-hat-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1530,7 +1530,7 @@
   {
     "title": "Matua Bucket Hat",
     "image": "/assets/images/matua-bucket-hat-1024x1024.jpg",
-    "url": "/matua-bucket-hat/",
+    "url": "/assets/images/matua-bucket-hat-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1538,15 +1538,15 @@
   {
     "title": "Burger King 5 Panel Hat",
     "image": "/assets/images/burger-king-5-panel-hat-1024x1024.jpg",
-    "url": "/burger-king-5-panel-hat/",
+    "url": "/assets/images/burger-king-5-panel-hat-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
   },
   {
-    "title": "Budweiser NFL Classic Hat",
+    "title": "NFL Falcon Classic Hats",
     "image": "/assets/images/nfl-falcon-classic-hats-1024x1024.jpg",
-    "url": "/budweiser-nfl-classic-hat/",
+    "url": "/assets/images/nfl-falcon-classic-hats-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1554,7 +1554,7 @@
   {
     "title": "Budweiser NFL Classic Hats Broncos",
     "image": "/assets/images/budweiser-nfl-classic-hats-broncos-1024x1024.jpg",
-    "url": "/budweiser-nfl-classic-hats-broncos/",
+    "url": "/assets/images/budweiser-nfl-classic-hats-broncos-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1562,7 +1562,7 @@
   {
     "title": "Moosehead Radler Bucket hat",
     "image": "/assets/images/moosehead-radler-bucket-hat-1024x1024.jpg",
-    "url": "/moosehead-radler-bucket-hat/",
+    "url": "/assets/images/moosehead-radler-bucket-hat-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1570,7 +1570,7 @@
   {
     "title": "Burger King Sun Hat",
     "image": "/assets/images/burger-king-sun-hat.jpg",
-    "url": "/burger-king-sun-hat/",
+    "url": "/assets/images/burger-king-sun-hat.jpg",
     "categories": [
       "Headwear"
     ]
@@ -1578,7 +1578,7 @@
   {
     "title": "Pabst 5 Panel Hat",
     "image": "/assets/images/pabst-5-panel-hat-1024x1024.jpg",
-    "url": "/pabst-5-panel-hat/",
+    "url": "/assets/images/pabst-5-panel-hat-1024x1024.jpg",
     "categories": [
       "Headwear"
     ]

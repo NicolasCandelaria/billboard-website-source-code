@@ -31,7 +31,7 @@ export async function initWorkGrid() {
     root.innerHTML = items
       .map(
         (p) =>
-          `<a class="work-card" href="${p.url}"><img src="${p.image}" alt=""><span>${p.title}</span></a>`
+          `<a class="work-card" href="${p.image}"><img src="${p.image}" alt=""><span>${p.title}</span></a>`
       )
       .join("");
     if (loadMore) loadMore.hidden = !hasMore;

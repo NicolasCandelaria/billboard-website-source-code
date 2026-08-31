@@ -1,6 +1,11 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import fs from "node:fs";
 import { filterProjects, paginate, PAGE_SIZE } from "../assets/js/work-grid.js";
+
+const projects = JSON.parse(
+  fs.readFileSync(new URL("../assets/data/projects.json", import.meta.url), "utf8")
+);
 
 const sample = [
   { title: "A", categories: ["Apparel"] },
@@ -27,4 +32,33 @@ test("paginate slices and reports hasMore", () => {
   const second = paginate(many, PAGE_SIZE, 2);
   assert.equal(second.items.length, 1);
   assert.equal(second.hasMore, false);
+});
+
+test("project destinations are their local lightbox images", () => {
+  assert.ok(projects.length > 0);
+  for (const project of projects) {
+    assert.match(project.image, /^\/assets\/images\/[^/]+$/);
+    assert.equal(project.url, project.image);
+    assert.doesNotMatch(project.url, /^\/(?!assets\/images\/)[^?#]+\/$/);
+  }
+});
+
+test("known mismatched title and image pairs are absent", () => {
+  const forbiddenPairs = [
+    ["White Claw Bar", "Corona-Bar"],
+    ["Budweiser Standing Cooler", "Pabst-Standing-Cooler"],
+    ["Costa Crew Polo", "Tim-Horton"],
+    ["Grey Goose Wine Box", "Grey-Goose-Ice-Bucket"],
+  ];
+
+  for (const [title, imageFragment] of forbiddenPairs) {
+    assert.equal(
+      projects.some(
+        (project) =>
+          project.title === title && project.image.includes(imageFragment)
+      ),
+      false,
+      `${title} must not use ${imageFragment}`
+    );
+  }
 });
