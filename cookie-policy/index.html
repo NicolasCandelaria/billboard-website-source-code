@@ -14,7 +14,83 @@
 </head>
 <body>
   <div data-include="header"></div>
-  <main id="main">STUB</main>
+  <main id="main">
+    <div class="page-wrap inner-page cookie-page">
+      <section class="page-intro cookie-intro">
+        <h1 class="visually-hidden">Cookie Policy</h1>
+        <p>This page provides comprehensive information about how we use cookies on our website to enhance your browsing experience, improve website performance, and deliver personalized content. Cookies are small text files that are stored on your device when you visit our site. They help us understand how visitors interact with our website, allowing us to offer a smoother and more efficient user experience. In the table below, you will find detailed information about each type of cookie we use, their purpose, and how long they remain on your device. We are committed to respecting your privacy and providing transparency about the data we collect through cookies. For more information on how we handle your personal data, please see our <a href="#">Privacy Policy.</a></p>
+      </section>
+
+      <section class="cookie-category" aria-labelledby="cookie-essential">
+        <h2 id="cookie-essential">Essential</h2>
+        <p>Essential cookies enable basic functions and are necessary for the proper function of the website.</p>
+        <div class="cookie-table-wrap">
+          <table>
+            <thead><tr><th scope="col">Name</th><th scope="col">Description</th><th scope="col">Duration</th></tr></thead>
+            <tbody>
+              <tr><td>wpconsent_preferences</td><td>This cookie is used to store the user's cookie consent preferences.</td><td>30 days</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>Comments</h3>
+        <p>These cookies are needed for adding comments on this website.</p>
+        <div class="cookie-table-wrap">
+          <table>
+            <thead><tr><th scope="col">Name</th><th scope="col">Description</th><th scope="col">Duration</th></tr></thead>
+            <tbody>
+              <tr><td>comment_author</td><td>Used to track the user across multiple sessions.</td><td>Session</td></tr>
+              <tr><td>comment_author_email</td><td>Used to track the user across multiple sessions.</td><td>Session</td></tr>
+              <tr><td>comment_author_url</td><td>Used to track the user across multiple sessions.</td><td>Session</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="cookie-category" aria-labelledby="cookie-stats">
+        <h2 id="cookie-stats">Statistics</h2>
+        <p>Statistics cookies collect information anonymously. This information helps us understand how visitors use our website.</p>
+
+        <h3>Google Analytics</h3>
+        <p>Google Analytics is a powerful tool that tracks and analyzes website traffic for informed marketing decisions.</p>
+        <p><a href="https://policies.google.com/privacy" rel="noopener noreferrer">Learn more</a></p>
+        <div class="cookie-table-wrap">
+          <table>
+            <thead><tr><th scope="col">Name</th><th scope="col">Description</th><th scope="col">Duration</th></tr></thead>
+            <tbody>
+              <tr><td>_gac_</td><td>Contains information related to marketing campaigns of the user. These are shared with Google AdWords / Google Ads when the Google Ads and Google Analytics accounts are linked together.</td><td>90 days</td></tr>
+              <tr><td>__utma</td><td>ID used to identify users and sessions</td><td>2 years after last activity</td></tr>
+              <tr><td>__utmt</td><td>Used to monitor number of Google Analytics server requests</td><td>10 minutes</td></tr>
+              <tr><td>__utmb</td><td>Used to distinguish new sessions and visits. This cookie is set when the GA.js javascript library is loaded and there is no existing __utmb cookie. The cookie is updated every time data is sent to the Google Analytics server.</td><td>30 minutes after last activity</td></tr>
+              <tr><td>__utmc</td><td>Used only with old Urchin versions of Google Analytics and not with GA.js. Was used to distinguish between new sessions and visits at the end of a session.</td><td>End of session (browser)</td></tr>
+              <tr><td>__utmz</td><td>Contains information about the traffic source or campaign that directed user to the website. The cookie is set when the GA.js javascript is loaded and updated when data is sent to the Google Anaytics server</td><td>6 months after last activity</td></tr>
+              <tr><td>__utmv</td><td>Contains custom information set by the web developer via the _setCustomVar method in Google Analytics. This cookie is updated every time new data is sent to the Google Analytics server.</td><td>2 years after last activity</td></tr>
+              <tr><td>__utmx</td><td>Used to determine whether a user is included in an A / B or Multivariate test.</td><td>18 months</td></tr>
+              <tr><td>_ga</td><td>ID used to identify users</td><td>2 years</td></tr>
+              <tr><td>_gali</td><td>Used by Google Analytics to determine which links on a page are being clicked</td><td>30 seconds</td></tr>
+              <tr><td>_ga_</td><td>ID used to identify users</td><td>2 years</td></tr>
+              <tr><td>_gid</td><td>ID used to identify users for 24 hours after last activity</td><td>24 hours</td></tr>
+              <tr><td>_gat</td><td>Used to monitor number of Google Analytics server requests when using Google Tag Manager</td><td>1 minute</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Microsoft Clarity</h3>
+        <p>Clarity is a web analytics service that tracks and reports website traffic.</p>
+        <p><a href="https://clarity.microsoft.com/" rel="noopener noreferrer">Learn more</a></p>
+        <div class="cookie-table-wrap">
+          <table>
+            <thead><tr><th scope="col">Name</th><th scope="col">Description</th><th scope="col">Duration</th></tr></thead>
+            <tbody>
+              <tr><td>ANONCHK</td><td>Indicates whether MUID is transferred to ANID, a cookie used for advertising. Clarity doesn't use ANID and so this is always set to 0.</td><td>Session</td></tr>
+              <tr><td>CLID</td><td>Identifies the first-time Clarity saw this user on any site using Clarity.</td><td>12 months</td></tr>
+              <tr><td>_clsk</td><td>Connects multiple page views by a user into a single Clarity session recording.</td><td>12 months</td></tr>
+              <tr><td>_clck</td><td>Persists the Clarity User ID and preferences, unique to that site is attributed to the same user ID.</td><td>12 months</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
   <div data-include="footer"></div>
   <div data-include="cookies"></div>
   <script type="module" src="/assets/js/main.js"></script>
