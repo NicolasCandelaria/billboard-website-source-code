@@ -1,0 +1,20 @@
+.work-card {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
+
+.work-card img {
+  aspect-ratio: 1;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.work-card span {
+  display: block;
+}
+
+[data-load-more][hidden] {
+  display: none;
+}
