@@ -6,10 +6,9 @@ export function filterProjects(projects, category) {
 }
 
 export function paginate(projects, pageSize, page) {
-  const start = (page - 1) * pageSize;
   const end = page * pageSize;
   return {
-    items: projects.slice(start, end),
+    items: projects.slice(0, end),
     hasMore: end < projects.length,
   };
 }
@@ -18,6 +17,7 @@ export async function initWorkGrid() {
   const root = document.querySelector("#work-grid");
   if (!root) return;
   const res = await fetch("/assets/data/projects.json");
+  if (!res.ok) return;
   const projects = await res.json();
   const buttons = document.querySelectorAll("[data-filter]");
   const loadMore = document.querySelector("[data-load-more]");
@@ -26,8 +26,7 @@ export async function initWorkGrid() {
 
   const render = () => {
     const filtered = filterProjects(projects, category);
-    const { hasMore } = paginate(filtered, PAGE_SIZE, page);
-    const items = filtered.slice(0, page * PAGE_SIZE);
+    const { items, hasMore } = paginate(filtered, PAGE_SIZE, page);
     root.innerHTML = items
       .map(
         (p) =>

@@ -3,22 +3,27 @@ import assert from "node:assert/strict";
 import { readFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 
-function htmlFiles(dir) {
+function sourceFiles(dir) {
   const out = [];
   for (const name of readdirSync(dir)) {
     if (name === "node_modules" || name === ".git" || name === ".superpowers") continue;
     const p = join(dir, name);
-    if (statSync(p).isDirectory()) out.push(...htmlFiles(p));
-    else if (name.endsWith(".html")) out.push(p);
+    if (statSync(p).isDirectory()) out.push(...sourceFiles(p));
+    else if (/\.(?:html|css|js)$/.test(name)) out.push(p);
   }
   return out;
 }
 
-test("HTML does not reference WordPress paths", () => {
+test("HTML, CSS, and JS do not reference WordPress paths", () => {
   const root = join(import.meta.dirname, "..");
-  for (const file of htmlFiles(root)) {
-    const html = readFileSync(file, "utf8");
-    assert.equal(html.includes("/wp-content/"), false, file);
-    assert.equal(html.includes("/wp-json/"), false, file);
+  const forbiddenPaths = [
+    `/${["wp", "content"].join("-")}/`,
+    `/${["wp", "json"].join("-")}/`,
+  ];
+  for (const file of sourceFiles(root)) {
+    const source = readFileSync(file, "utf8");
+    for (const forbiddenPath of forbiddenPaths) {
+      assert.equal(source.includes(forbiddenPath), false, `${file}: ${forbiddenPath}`);
+    }
   }
 });

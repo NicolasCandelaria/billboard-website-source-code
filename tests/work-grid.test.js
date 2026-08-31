@@ -30,7 +30,7 @@ test("paginate slices and reports hasMore", () => {
   assert.equal(first.items.length, 12);
   assert.equal(first.hasMore, true);
   const second = paginate(many, PAGE_SIZE, 2);
-  assert.equal(second.items.length, 1);
+  assert.equal(second.items.length, 13);
   assert.equal(second.hasMore, false);
 });
 
