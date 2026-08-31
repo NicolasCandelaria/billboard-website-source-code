@@ -5,6 +5,7 @@ import { initWorkGrid } from "./work-grid.js";
 import { initSlider } from "./slider.js";
 import { initFlips } from "./flips.js";
 import { initCounters } from "./counters.js";
+import { initForm } from "./form.js";
 
 async function boot() {
   await mountIncludes();
@@ -14,6 +15,7 @@ async function boot() {
   initSlider();
   initFlips();
   initCounters();
+  initForm();
 }
 
 boot().catch((err) => {

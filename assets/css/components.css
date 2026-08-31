@@ -143,3 +143,117 @@
     visibility: visible;
   }
 }
+
+/* Contact form */
+.hp {
+  position: absolute;
+  left: -9999px;
+}
+
+.contact-hero {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  margin-bottom: 3.5rem;
+}
+
+.contact-meta-title {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+}
+
+.contact-meta {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 2rem;
+}
+
+.contact-form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  border: 1px solid rgb(0 0 0 / 18%);
+  padding: 0.85rem 1rem;
+  width: 100%;
+}
+
+.contact-form button {
+  background: var(--color-ink);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--font-serif);
+  padding: 0.9rem 1.25rem;
+}
+
+.contact-form button:hover,
+.contact-form button:focus-visible {
+  background: #222;
+}
+
+.contact-form .form-error {
+  color: #a11;
+  font-size: 0.85rem;
+  min-height: 1em;
+}
+
+.contact-form [data-form-status] {
+  margin: 0.25rem 0 0;
+  min-height: 1.25em;
+}
+
+.contact-potential,
+.contact-why {
+  margin: 2.5rem 0;
+}
+
+.contact-potential h2,
+.contact-why h2,
+.contact-brands h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  margin: 0 0 0.85rem;
+}
+
+.contact-logo-row {
+  align-items: center;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  justify-items: center;
+  margin-top: 1.5rem;
+}
+
+.contact-logo-row img {
+  height: 48px;
+  max-width: 120px;
+  object-fit: contain;
+  width: auto;
+}
+
+@media (max-width: 920px) {
+  .contact-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-logo-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-logo-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
