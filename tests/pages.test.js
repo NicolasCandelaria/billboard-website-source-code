@@ -117,9 +117,12 @@ test("sustainability gallery progressively reveals archived live items", () => {
 
   assert.ok((html.match(/class="sustainable-item/g) ?? []).length >= 12);
   assert.equal(
-    (html.match(/class="sustainable-item sustainable-extra" hidden/g) ?? [])
-      .length,
+    (html.match(/class="sustainable-item sustainable-extra"/g) ?? []).length,
     6
+  );
+  assert.doesNotMatch(
+    html,
+    /class="sustainable-item sustainable-extra" hidden/
   );
   assert.match(html, /data-sustainability-load-more/);
   assert.match(html, /\/assets\/js\/sustainability\.js/);

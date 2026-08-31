@@ -1,8 +1,15 @@
 const loadMore = document.querySelector("[data-sustainability-load-more]");
+const extras = document.querySelectorAll(".sustainable-extra");
 
-loadMore?.addEventListener("click", () => {
-  document.querySelectorAll(".sustainable-extra[hidden]").forEach((item) => {
-    item.hidden = false;
+if (loadMore && extras.length) {
+  extras.forEach((item) => {
+    item.hidden = true;
   });
-  loadMore.hidden = true;
-});
+
+  loadMore.addEventListener("click", () => {
+    extras.forEach((item) => {
+      item.hidden = false;
+    });
+    loadMore.hidden = true;
+  });
+}
