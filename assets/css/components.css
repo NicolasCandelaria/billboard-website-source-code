@@ -85,15 +85,9 @@
   transform: rotateY(180deg);
 }
 
-.has-js .flip-card:focus-visible {
+.has-js .flip-front:focus-visible {
   outline: 3px solid var(--color-gold);
-  outline-offset: 3px;
-}
-
-@media (hover: hover) {
-  .has-js .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
+  outline-offset: -3px;
 }
 
 .flip-front,
@@ -126,20 +120,5 @@
   .has-js .flip-card.is-flipped .flip-back {
     transform: none;
     visibility: visible;
-  }
-
-  @media (hover: hover) {
-    .has-js .flip-card:hover .flip-card-inner {
-      transform: none;
-    }
-
-    .has-js .flip-card:hover .flip-front {
-      visibility: hidden;
-    }
-
-    .has-js .flip-card:hover .flip-back {
-      transform: none;
-      visibility: visible;
-    }
   }
 }

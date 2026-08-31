@@ -6,6 +6,7 @@ function createClassList() {
   const classes = new Set();
   return {
     add: (...names) => names.forEach((name) => classes.add(name)),
+    remove: (...names) => names.forEach((name) => classes.delete(name)),
     contains: (name) => classes.has(name),
     toggle(name) {
       if (classes.has(name)) {
@@ -18,14 +19,20 @@ function createClassList() {
   };
 }
 
-function createCard() {
+function createElement() {
   const attributes = new Map();
   const listeners = new Map();
   return {
     classList: createClassList(),
+    focused: false,
     setAttribute: (name, value) => attributes.set(name, String(value)),
+    removeAttribute: (name) => attributes.delete(name),
+    hasAttribute: (name) => attributes.has(name),
     getAttribute: (name) => attributes.get(name),
     addEventListener: (type, listener) => listeners.set(type, listener),
+    focus() {
+      this.focused = true;
+    },
     dispatch(type, event = {}) {
       listeners.get(type)?.({
         target: { closest: () => null },
@@ -34,6 +41,17 @@ function createCard() {
       });
     },
   };
+}
+
+function createCard() {
+  const card = createElement();
+  const front = createElement();
+  const back = createElement();
+  const link = createElement();
+  back.querySelector = () => link;
+  card.querySelector = (selector) =>
+    selector === ".flip-front" ? front : selector === ".flip-back" ? back : null;
+  return { card, front, back, link };
 }
 
 function withDocument(cards, run) {
@@ -50,36 +68,39 @@ function withDocument(cards, run) {
   }
 }
 
-test("initFlips makes cards keyboard-focusable and click toggles the back", () => {
-  const card = createCard();
+test("initFlips uses the front control without making the card a button", () => {
+  const { card, front, back, link } = createCard();
   withDocument([card], () => {
     initFlips();
-    assert.equal(card.getAttribute("tabindex"), "0");
-    assert.equal(card.getAttribute("role"), "button");
-    assert.equal(card.getAttribute("aria-pressed"), "false");
+    assert.equal(card.getAttribute("tabindex"), undefined);
+    assert.equal(card.getAttribute("role"), undefined);
+    assert.equal(front.getAttribute("aria-expanded"), "false");
+    assert.equal(back.getAttribute("aria-hidden"), "true");
+    assert.equal(back.hasAttribute("inert"), true);
 
-    card.dispatch("click");
+    front.dispatch("click");
     assert.equal(card.classList.contains("is-flipped"), true);
-    assert.equal(card.getAttribute("aria-pressed"), "true");
+    assert.equal(front.getAttribute("aria-expanded"), "true");
+    assert.equal(front.getAttribute("aria-hidden"), "true");
+    assert.equal(front.hasAttribute("inert"), true);
+    assert.equal(back.getAttribute("aria-hidden"), undefined);
+    assert.equal(back.hasAttribute("inert"), false);
+    assert.equal(link.focused, true);
   });
 });
 
-test("Enter and Space toggle a focused flip card", () => {
-  const card = createCard();
+test("clicking the revealed back face restores the front control", () => {
+  const { card, front, back } = createCard();
   withDocument([card], () => {
     initFlips();
+    front.dispatch("click");
+    back.dispatch("click");
 
-    card.dispatch("keydown", { key: "Enter" });
-    assert.equal(card.classList.contains("is-flipped"), true);
-
-    let prevented = false;
-    card.dispatch("keydown", {
-      key: " ",
-      preventDefault: () => {
-        prevented = true;
-      },
-    });
-    assert.equal(prevented, true);
     assert.equal(card.classList.contains("is-flipped"), false);
+    assert.equal(front.getAttribute("aria-hidden"), undefined);
+    assert.equal(front.hasAttribute("inert"), false);
+    assert.equal(back.getAttribute("aria-hidden"), "true");
+    assert.equal(back.hasAttribute("inert"), true);
+    assert.equal(front.focused, true);
   });
 });

@@ -55,3 +55,31 @@ test("mobile home slider keeps arrow controls visible and clickable", () => {
   assert.doesNotMatch(arrowRule, /visibility\s*:\s*hidden/);
   assert.doesNotMatch(arrowRule, /(?:width|height)\s*:\s*0(?:\D|$)/);
 });
+
+test("home slider bullets provide at least 44px pointer targets", () => {
+  const css = readFileSync(
+    join(import.meta.dirname, "..", "assets", "css", "pages.css"),
+    "utf8"
+  );
+  const bulletRule =
+    css.match(
+      /#main \.hero-slider \.slider-bullets button\s*\{([^}]*)\}/
+    )?.[1] ?? "";
+
+  assert.match(bulletRule, /height\s*:\s*44px/);
+  assert.match(bulletRule, /width\s*:\s*44px/);
+});
+
+test("home flip cards use front buttons and initially hide their back faces", () => {
+  const html = readFileSync(
+    join(import.meta.dirname, "..", "index.html"),
+    "utf8"
+  );
+
+  assert.equal(html.match(/<button class="flip-front"/g)?.length, 8);
+  assert.equal(
+    html.match(/<div class="flip-back" inert aria-hidden="true">/g)?.length,
+    8
+  );
+  assert.doesNotMatch(html, /<article class="flip-card"[^>]*role="button"/);
+});

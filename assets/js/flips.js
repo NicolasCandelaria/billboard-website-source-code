@@ -3,25 +3,48 @@ export function initFlips() {
   document.documentElement.classList.add("has-js");
 
   document.querySelectorAll(".flip-card").forEach((card) => {
-    card.setAttribute("tabindex", "0");
-    card.setAttribute("role", "button");
-    card.setAttribute("aria-pressed", "false");
+    const front = card.querySelector(".flip-front");
+    const back = card.querySelector(".flip-back");
+    if (!front || !back) return;
 
-    const toggle = () => {
-      const isFlipped = card.classList.toggle("is-flipped");
-      card.setAttribute("aria-pressed", String(isFlipped));
+    const setHidden = (face, hidden) => {
+      if (hidden) {
+        face.setAttribute("inert", "");
+        face.setAttribute("aria-hidden", "true");
+      } else {
+        face.removeAttribute("inert");
+        face.removeAttribute("aria-hidden");
+      }
     };
 
-    card.addEventListener("click", (event) => {
+    const setFlipped = (isFlipped, moveFocus = true) => {
+      card.classList[isFlipped ? "add" : "remove"]("is-flipped");
+      front.setAttribute("aria-expanded", String(isFlipped));
+
+      if (isFlipped) {
+        setHidden(back, false);
+        if (moveFocus) back.querySelector("a, button")?.focus();
+        setHidden(front, true);
+      } else {
+        setHidden(front, false);
+        if (moveFocus) front.focus();
+        setHidden(back, true);
+      }
+    };
+
+    setFlipped(card.classList.contains("is-flipped"), false);
+
+    front.addEventListener("click", () => setFlipped(true));
+
+    back.addEventListener("click", (event) => {
       if (event.target.closest("a")) return;
-      toggle();
+      setFlipped(false);
     });
 
-    card.addEventListener("keydown", (event) => {
-      if (event.target.closest("a")) return;
-      if (event.key !== "Enter" && event.key !== " ") return;
+    back.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape") return;
       event.preventDefault();
-      toggle();
+      setFlipped(false);
     });
   });
 }
