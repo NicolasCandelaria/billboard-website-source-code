@@ -1,3 +1,9 @@
+.work-grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .work-card {
   color: inherit;
   display: block;
@@ -13,10 +19,25 @@
 
 .work-card span {
   display: block;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  margin-top: 0.65rem;
 }
 
 [data-load-more][hidden] {
   display: none;
+}
+
+@media (max-width: 920px) {
+  .work-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .hero-slider {

@@ -788,3 +788,219 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* Our Work */
+.work-page {
+  padding: 3rem 0 4.5rem;
+}
+
+.work-page h1 {
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
+  margin: 0 0 1.75rem;
+  text-align: center;
+}
+
+.work-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.work-filters button {
+  background: transparent;
+  border: 1px solid var(--color-gold-border);
+  color: var(--color-ink);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.55rem 1rem;
+  transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.work-filters button:hover,
+.work-filters button:focus-visible,
+.work-filters button.is-active {
+  background: var(--color-gold);
+  border-color: var(--color-gold);
+  color: #fff;
+}
+
+.work-load-more,
+[data-load-more] {
+  background: transparent;
+  border: 1px solid var(--color-ink);
+  cursor: pointer;
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 2.5rem auto 0;
+  padding: 0.85rem 1.75rem;
+  text-transform: uppercase;
+}
+
+.work-load-more:hover,
+[data-load-more]:hover,
+.work-load-more:focus-visible,
+[data-load-more]:focus-visible {
+  background: var(--color-ink);
+  color: #fff;
+}
+
+/* Category + case study pages */
+.category-hero-image,
+.case-hero-image {
+  display: block;
+  height: auto;
+  margin: 0 0 1.75rem;
+  width: 100%;
+}
+
+.category-page .category-hero h1,
+.case-study .case-hero h1,
+.case-study .case-hero h2,
+.case-studies-index .page-intro h1 {
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  margin: 0 0 1rem;
+}
+
+.category-gallery,
+.case-gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 1.75rem 0 0;
+}
+
+.category-gallery img,
+.case-gallery img {
+  display: block;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.category-showcase,
+.category-features,
+.case-brief,
+.case-solution,
+.more-case-studies,
+.work-brands {
+  margin-top: 3rem;
+}
+
+.feature-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 1.75rem;
+}
+
+.feature-item h4 {
+  color: var(--color-gold);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+.feature-item p {
+  margin: 0;
+}
+
+.case-meta {
+  display: grid;
+  gap: 1rem 1.5rem;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin: 2rem 0 0;
+}
+
+.case-meta div {
+  border-top: 1px solid rgb(0 0 0 / 10%);
+  padding-top: 0.75rem;
+}
+
+.case-meta dt {
+  color: var(--color-gold);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+}
+
+.case-meta dd {
+  margin: 0;
+}
+
+.case-card-grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 1.5rem;
+}
+
+.case-card-grid--index {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.case-card {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
+
+.case-card img {
+  aspect-ratio: 3 / 2;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.case-card h2,
+.case-card h3 {
+  font-size: 1.25rem;
+  margin: 0.75rem 0 0.25rem;
+}
+
+.case-card-tag {
+  color: rgb(0 0 0 / 55%);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.work-brands .brand-logo-row {
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 920px) {
+  .feature-grid,
+  .case-meta,
+  .category-gallery,
+  .case-gallery,
+  .case-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .work-page {
+    padding: 2rem 0 3rem;
+  }
+
+  .feature-grid,
+  .case-meta,
+  .category-gallery,
+  .case-gallery,
+  .case-card-grid,
+  .case-card-grid--index {
+    grid-template-columns: 1fr;
+  }
+}

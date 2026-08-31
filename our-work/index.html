@@ -14,7 +14,25 @@
 </head>
 <body>
   <div data-include="header"></div>
-  <main id="main">STUB</main>
+  <main id="main">
+    <div class="page-wrap work-page">
+      <h1>Our Work</h1>
+      <div class="work-filters" role="group" aria-label="Filter work by category">
+        <button type="button" data-filter="All" class="is-active">All</button>
+        <button type="button" data-filter="Accessories">Accessories</button>
+        <button type="button" data-filter="Apparel">Apparel</button>
+        <button type="button" data-filter="Barware">Barware</button>
+        <button type="button" data-filter="Drinkware">Drinkware</button>
+        <button type="button" data-filter="Displays">Displays</button>
+        <button type="button" data-filter="Headwear">Headwear</button>
+        <button type="button" data-filter="Uniforms">Uniforms</button>
+        <button type="button" data-filter="Outdoors">Outdoors</button>
+        <button type="button" data-filter="Wine &amp; Spirits Accessories">Wine &amp; Spirits Accessories</button>
+      </div>
+      <div id="work-grid" class="work-grid"></div>
+      <button type="button" data-load-more class="work-load-more">Load More</button>
+    </div>
+  </main>
   <div data-include="footer"></div>
   <div data-include="cookies"></div>
   <script type="module" src="/assets/js/main.js"></script>

@@ -31,6 +31,7 @@ export const REQUIRED_PAGES = [
   "cisco-silicon-bottle/index.html",
   "corona-fire-table/index.html",
   "corona-cabinet/index.html",
+  "budwiser-bridge-set/index.html",
 ];
 
 test("required public pages exist", () => {
