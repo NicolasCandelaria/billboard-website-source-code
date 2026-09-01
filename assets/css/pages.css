@@ -523,11 +523,141 @@
   margin: 0 0 1.25rem;
 }
 
+.about-split {
+  align-items: start;
+  display: grid;
+  gap: 2.5rem 4rem;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.15fr);
+}
+
+.about-intro h1,
+.about-women-left h2,
+.about-leadership-intro h2 {
+  font-size: clamp(2.25rem, 4.5vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.12;
+  margin: 0;
+}
+
+.about-page {
+  padding-top: 3.5rem;
+}
+
+.about-page.inner-page {
+  padding-top: 3.5rem;
+  padding-bottom: 0;
+}
+
+.about-rule {
+  background: #e6e6e6;
+  border: 0;
+  height: 1px;
+  margin: 3rem auto;
+  width: min(100% - 40px, var(--max));
+}
+
+.about-women {
+  padding-bottom: 0.5rem;
+}
+
+.about-women-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem 1.5rem;
+  margin-top: 1.75rem;
+}
+
+.about-women-badges img {
+  height: auto;
+  max-width: 200px;
+  width: 100%;
+}
+
+.about-dark {
+  background: #000;
+  color: #fff;
+  padding: 4.5rem 0 4rem;
+}
+
+.about-dark h2 {
+  color: #fff;
+  font-size: clamp(2rem, 4vw, 3.15rem);
+  font-weight: 400;
+  margin: 0 0 1.25rem;
+}
+
+.about-rule--on-dark {
+  background: rgb(255 255 255 / 22%);
+  margin: 0 0 1.75rem;
+  width: 100%;
+}
+
+.about-dark-block {
+  margin-bottom: 3.25rem;
+}
+
+.about-dark-block:last-child {
+  margin-bottom: 0;
+}
+
+.about-dark-block p {
+  margin: 0;
+  margin-left: auto;
+  max-width: 36rem;
+}
+
+.about-leadership {
+  padding: 4.5rem 0 5rem;
+}
+
+.about-leadership-intro {
+  margin-bottom: 2.5rem;
+}
+
+.leadership-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.leader-card {
+  background: #f5f5f5;
+  padding: 2rem 1.75rem 1.75rem;
+}
+
+.leader-card h3 {
+  font-size: clamp(1.5rem, 2.4vw, 1.85rem);
+  margin: 0 0 0.45rem;
+}
+
+.leader-role {
+  color: var(--color-gold);
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin: 0 0 1.15rem;
+  text-transform: uppercase;
+}
+
+.leader-card p:not(.leader-role) {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin: 0 0 1.35rem;
+}
+
+.leader-linkedin {
+  color: var(--color-ink);
+  display: inline-flex;
+}
+
+.leader-linkedin:hover,
+.leader-linkedin:focus-visible {
+  color: var(--color-gold);
+}
+
 .page-prose p,
 .page-intro > p,
-.about-space > p,
-.about-concepts > p,
-.about-diverse > p,
 .sustainability-mission p,
 .clients-intro > p,
 .accreditations-intro > p {
@@ -535,29 +665,8 @@
   max-width: 48rem;
 }
 
-.about-women {
-  align-items: start;
-  display: grid;
-  gap: 2.5rem;
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
-  margin: 3rem 0;
-}
-
-.about-women-badges {
-  display: grid;
-  gap: 1.25rem;
-}
-
-.about-women-badges img {
-  height: auto;
-  max-width: 100%;
-  width: min(100%, 320px);
-}
-
-.about-space,
-.about-concepts,
-.about-diverse {
-  margin: 3rem 0;
+.page-prose p:last-child {
+  margin-bottom: 0;
 }
 
 .sustainability-hero-image {
@@ -565,32 +674,6 @@
   height: auto;
   margin: 0 0 2rem;
   width: 100%;
-}
-
-.about-leadership {
-  margin-top: 3.5rem;
-  padding-top: 1rem;
-}
-
-.about-leadership-intro {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-  margin-bottom: 2.5rem;
-}
-
-.leadership-grid {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.leader-role {
-  color: var(--color-gold);
-  font-family: var(--font-serif);
-  font-size: 1.05rem;
-  margin: 0.35rem 0 1rem;
-  text-transform: none;
 }
 
 .services-infographic {
@@ -849,12 +932,18 @@
 }
 
 @media (max-width: 920px) {
+  .about-split,
   .about-women,
   .about-leadership-intro,
   .elevate-hero,
   .accreditation-item,
   .service-block {
     grid-template-columns: 1fr;
+  }
+
+  .about-dark-block p {
+    margin-left: 0;
+    max-width: none;
   }
 
   .leadership-grid,
