@@ -46,5 +46,10 @@ export function initFlips() {
       event.preventDefault();
       setFlipped(false);
     });
+
+    if (globalThis.window?.matchMedia?.("(hover: hover) and (pointer: fine)")?.matches) {
+      card.addEventListener("mouseenter", () => setFlipped(true, false));
+      card.addEventListener("mouseleave", () => setFlipped(false, false));
+    }
   });
 }

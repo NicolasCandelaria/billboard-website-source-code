@@ -10,11 +10,22 @@
   background: #111;
 }
 
+#main .hero-slider .slide:nth-child(1) > img {
+  object-position: 55% 38%;
+}
+
+#main .hero-slider .slide:nth-child(2) > img {
+  object-position: 41% 50%;
+}
+
+#main .hero-slider .slide:nth-child(3) > img {
+  object-position: 50% 50%;
+}
+
 #main .hero-slider .slide > img {
   display: block;
   height: 100%;
   object-fit: cover;
-  object-position: center;
   width: 100%;
 }
 
@@ -80,9 +91,9 @@
 
 #main .hero-slider .slider-prev,
 #main .hero-slider .slider-next {
-  background: rgb(0 0 0 / 35%);
+  background: transparent;
   border: 0;
-  color: #fff;
+  color: rgb(1 1 1 / 87%);
   cursor: pointer;
   height: 44px;
   width: 44px;
@@ -90,8 +101,8 @@
 
 #main .hero-slider .slider-prev::before,
 #main .hero-slider .slider-next::before {
-  border-bottom: 2px solid #fff;
-  border-left: 2px solid #fff;
+  border-bottom: 2px solid rgb(1 1 1 / 87%);
+  border-left: 2px solid rgb(1 1 1 / 87%);
   content: "";
   display: block;
   height: 12px;
@@ -120,7 +131,7 @@
 }
 
 #main .hero-slider .slider-bullets button::before {
-  background: rgb(255 255 255 / 45%);
+  background: rgb(1 1 1 / 35%);
   border-radius: 50%;
   content: "";
   height: 10px;
@@ -128,22 +139,23 @@
 }
 
 #main .hero-slider .slider-bullets button.is-active::before {
-  background: #fff;
+  background: rgb(1 1 1 / 87%);
 }
 
 .home-services {
-  padding: 1rem 0 4rem;
+  padding: 2.5rem 0 2rem;
 }
 
-.home-services h2 {
-  font-size: clamp(1.75rem, 2.8vw, 2.25rem);
-  margin: 0 0 1.75rem;
-  text-align: center;
+.home-services-title {
+  font-size: clamp(1.65rem, 2.4vw, 2rem);
+  font-weight: 400;
+  margin: 0 0 1.5rem;
+  text-align: left;
 }
 
 .flip-grid {
   display: grid;
-  gap: 1rem;
+  gap: 10px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
@@ -195,14 +207,25 @@
   text-decoration: none;
 }
 
-.home-categories {
+.home-mosaic {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-areas:
+    "games games games games"
+    "pack pack bar app"
+    "promo disp chair chair";
 }
 
-.category-tile,
-.home-featured {
-  background-image: linear-gradient(rgb(0 0 0 / 35%), rgb(0 0 0 / 45%)), var(--tile-image);
+.tile-games { grid-area: games; min-height: 340px; }
+.tile-packaging { grid-area: pack; min-height: 420px; }
+.tile-barware { grid-area: bar; min-height: 420px; }
+.tile-apparel { grid-area: app; min-height: 420px; }
+.tile-promo { grid-area: promo; min-height: 400px; }
+.tile-displays { grid-area: disp; min-height: 400px; }
+.tile-chair { grid-area: chair; min-height: 400px; }
+
+.category-tile {
+  background-image: linear-gradient(rgb(0 0 0 / 28%), rgb(0 0 0 / 42%)), var(--tile-image);
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -234,60 +257,65 @@
   line-height: 1.15;
 }
 
-.home-featured {
-  min-height: 420px;
+.home-more-wrap {
+  margin: 2.25rem 0 2.5rem;
+  text-align: center;
 }
 
-.home-featured-inner {
-  color: #fff;
-}
-
-.home-featured h2 {
-  color: #fff;
-  font-size: clamp(2rem, 4vw, 3rem);
-  margin: 0 0 1rem;
-}
-
-.text-cta {
+.home-more-btn {
   color: var(--color-gold);
   display: inline-block;
   font-family: var(--font-serif);
   font-size: 1.05rem;
+  padding: 0.35rem 0.15rem;
   text-decoration: none;
 }
 
-.text-cta:hover,
-.text-cta:focus-visible {
+.home-more-btn:hover,
+.home-more-btn:focus-visible {
   text-decoration: underline;
 }
 
 .home-achievements {
   background: #000;
   color: #fff;
-  padding: 4rem 0 4.5rem;
+  padding: 4.5rem 0 4rem;
 }
 
-.home-achievements-grid {
+.home-achievements-top {
   align-items: start;
   display: grid;
   gap: 3rem;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  margin-bottom: 2.5rem;
 }
 
 .home-achievements h2 {
   color: #fff;
-  font-size: clamp(1.75rem, 3vw, 2.5rem);
-  margin: 0 0 1rem;
+  font-size: clamp(2rem, 3.4vw, 2.75rem);
+  margin: 0;
 }
 
 .home-achievements-copy p {
   margin: 0 0 1.25rem;
-  max-width: 34rem;
+}
+
+.gold-rule--on-dark {
+  background: rgb(255 255 255 / 18%);
+  margin-bottom: 2.5rem;
 }
 
 .home-counters {
   display: grid;
-  gap: 1.75rem;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.home-counter-label {
+  color: #fff;
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  margin: 0 0 0.5rem;
 }
 
 .home-counter-value {
@@ -299,15 +327,8 @@
   margin: 0;
 }
 
-.home-counter-label {
-  color: #fff;
-  font-family: var(--font-serif);
-  font-size: 1.15rem;
-  margin: 0.35rem 0 0;
-}
-
 .home-sustainability {
-  padding: 4.5rem 0 3.5rem;
+  padding: 4.5rem 0 1.5rem;
 }
 
 .home-sustainability h2,
@@ -326,21 +347,41 @@
   width: 100%;
 }
 
-.home-sustainability p,
+.home-sustainability-copy,
 .home-why p {
   margin: 0 0 1.5rem;
-  max-width: 48rem;
+  max-width: 36rem;
+}
+
+.home-sustain-hero {
+  display: block;
+  height: auto;
+  margin: 1.5rem 0 0;
+  width: 100%;
+}
+
+.home-sustain-pair {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1.25rem;
+}
+
+.home-sustain-pair img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .home-why {
-  background: #f8f8f8;
-  margin-top: 2rem;
-  padding: 5rem 0 3.75rem;
+  background: #fff;
+  padding: 3.5rem 0 2.5rem;
 }
 
 .home-brands {
-  background: #f5f5f7;
-  padding: 3.75rem 0 4rem;
+  background: #fff;
+  padding: 2rem 0 4.5rem;
   text-align: center;
 }
 
@@ -366,7 +407,28 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .home-achievements-grid {
+  .home-mosaic {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "games games"
+      "pack pack"
+      "bar app"
+      "promo disp"
+      "chair chair";
+  }
+
+  .tile-games,
+  .tile-packaging,
+  .tile-barware,
+  .tile-apparel,
+  .tile-promo,
+  .tile-displays,
+  .tile-chair {
+    min-height: 280px;
+  }
+
+  .home-achievements-top,
+  .home-counters {
     grid-template-columns: 1fr;
   }
 
@@ -386,22 +448,43 @@
     right: 1.25rem;
   }
 
-  .home-categories {
+  .home-mosaic {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "games"
+      "pack"
+      "bar"
+      "app"
+      "promo"
+      "disp"
+      "chair";
   }
 
   .flip-grid {
     grid-template-columns: 1fr;
   }
 
+  .home-sustain-pair,
   .brand-logo-row {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr 1fr;
   }
 
-  .category-tile,
-  .home-featured {
+  .category-tile {
     min-height: 220px;
   }
+}
+
+.text-cta {
+  color: var(--color-gold);
+  display: inline-block;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  text-decoration: none;
+}
+
+.text-cta:hover,
+.text-cta:focus-visible {
+  text-decoration: underline;
 }
 
 /* Shared inner marketing pages */

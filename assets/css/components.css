@@ -106,6 +106,12 @@
   transform: rotateY(180deg);
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .has-js .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+}
+
 .has-js .flip-front:focus-visible {
   outline: 3px solid var(--color-gold);
   outline-offset: -3px;
