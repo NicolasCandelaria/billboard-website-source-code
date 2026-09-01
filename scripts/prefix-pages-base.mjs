@@ -25,7 +25,7 @@ export function prefixRootPaths(text, base = "/billboard-website-source-code") {
     (_m, quote, path) => `url(${quote}${prefixPath(path)}`
   );
   out = out.replace(
-    /(fetch|location\.replace)\((["'])\/(?!\/)([^"']*)/g,
+    /(fetch|location\.replace)\((["'`])\/(?!\/)([^"'`]*)/g,
     (_m, fn, quote, path) => `${fn}(${quote}${prefixPath(path)}`
   );
   out = out.replace(

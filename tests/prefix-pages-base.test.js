@@ -10,6 +10,7 @@ test("prefixes root-absolute href, css url, fetch, and json assets", () => {
     '<link href="/assets/css/reset.css">',
     "url('/assets/fonts/roboto-400.woff2')",
     'fetch("/partials/header.html")',
+    "fetch(`/partials/${name}.html`)",
     'location.replace("/games/")',
     '<meta http-equiv="refresh" content="0; url=/games/">',
     '{"image":"/assets/images/logo.png"}',
@@ -21,6 +22,7 @@ test("prefixes root-absolute href, css url, fetch, and json assets", () => {
   assert.match(out, /href="\/billboard-website-source-code\/assets\/css\/reset\.css"/);
   assert.match(out, /url\('\/billboard-website-source-code\/assets\/fonts\/roboto-400\.woff2'\)/);
   assert.match(out, /fetch\("\/billboard-website-source-code\/partials\/header\.html"\)/);
+  assert.match(out, /fetch\(`\/billboard-website-source-code\/partials\/\$\{name\}\.html`\)/);
   assert.match(out, /location\.replace\("\/billboard-website-source-code\/games\/"\)/);
   assert.match(out, /content="0; url=\/billboard-website-source-code\/games\/"/);
   assert.match(out, /"image":"\/billboard-website-source-code\/assets\/images\/logo\.png"/);

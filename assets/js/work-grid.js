@@ -1,3 +1,5 @@
+import { siteUrl } from "./base.js";
+
 export const PAGE_SIZE = 12;
 
 export function filterProjects(projects, category) {
@@ -16,7 +18,7 @@ export function paginate(projects, pageSize, page) {
 export async function initWorkGrid() {
   const root = document.querySelector("#work-grid");
   if (!root) return;
-  const res = await fetch("/assets/data/projects.json");
+  const res = await fetch(siteUrl("/assets/data/projects.json"));
   if (!res.ok) return;
   const projects = await res.json();
   const buttons = document.querySelectorAll("[data-filter]");
