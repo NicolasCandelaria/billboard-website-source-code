@@ -5,7 +5,11 @@ export function siteBase() {
   return first ? `/${first}` : "";
 }
 
-export function siteUrl(path) {
+export function siteUrl(path, base = siteBase()) {
   const normalized = path.startsWith("/") ? path : `/${path}`;
-  return `${siteBase()}${normalized}`;
+  if (!base) return normalized;
+  if (normalized === base || normalized.startsWith(`${base}/`)) {
+    return normalized;
+  }
+  return `${base}${normalized}`;
 }
